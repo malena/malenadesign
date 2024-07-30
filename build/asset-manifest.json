@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/malenadesign/static/css/main.d5592ffc.css",
-    "main.js": "/malenadesign/static/js/main.e1847f1b.js",
-    "static/js/787.09c45542.chunk.js": "/malenadesign/static/js/787.09c45542.chunk.js",
-    "static/media/logo.svg": "/malenadesign/static/media/logo.bfc050e052408724275728c9dc02c70c.svg",
-    "index.html": "/malenadesign/index.html",
-    "main.d5592ffc.css.map": "/malenadesign/static/css/main.d5592ffc.css.map",
-    "main.e1847f1b.js.map": "/malenadesign/static/js/main.e1847f1b.js.map",
-    "787.09c45542.chunk.js.map": "/malenadesign/static/js/787.09c45542.chunk.js.map"
+    "main.css": "./docs/static/css/main.d5592ffc.css",
+    "main.js": "./docs/static/js/main.7169285a.js",
+    "static/js/787.09c45542.chunk.js": "./docs/static/js/787.09c45542.chunk.js",
+    "static/media/logo.svg": "./docs/static/media/logo.bfc050e052408724275728c9dc02c70c.svg",
+    "index.html": "./docs/index.html",
+    "main.d5592ffc.css.map": "./docs/static/css/main.d5592ffc.css.map",
+    "main.7169285a.js.map": "./docs/static/js/main.7169285a.js.map",
+    "787.09c45542.chunk.js.map": "./docs/static/js/787.09c45542.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d5592ffc.css",
-    "static/js/main.e1847f1b.js"
+    "static/js/main.7169285a.js"
   ]
 }
