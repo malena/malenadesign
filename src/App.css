@@ -1,32 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
 :root {
   --brand-color: #bf0029;
+  --brand-complimentary-color: #583e40;
+  --font-size-sm: 18px;
+  --font-size-md: 36px;
+  --title-font: "Noto Serif", serif;
+  --title-font-weight: 400;
+  --text-font: sans-serif;
 }
 
-.home-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+  color: var(--brand-complimentary-color);
 }
 
-.home {
-  background-color: #fffcfc;
+p {
+  font-size: var(--font-size-sm);
+}
+
+.app-container {
+  border: solid 1px purple;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #fffcfc;
 }
 
-.header-menu a {
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.home-title {
+  font-size: var(--font-size-md);
+  font-family: var(--title-font);
+  font-weight: var(--title-font-weight);
+}
+
+.home-logo {
+  height: 16vmin;
+}
+
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.header-menu {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.header-menu li a {
+  margin-right: 1rem;
+  text-decoration: none;
   color: var(--brand-color);
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

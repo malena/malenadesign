@@ -1,7 +1,7 @@
 function Header() {
   return (
-    <header className="header-menu">
-      <ul>
+    <header className="header">
+      <ul className="header-menu">
         <li>
           <a href="/">About</a>
         </li>
