@@ -1,3 +1,4 @@
+import "./Header.css";
 import favicon from "./favicon.svg";
 
 function Header() {

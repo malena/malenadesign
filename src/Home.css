@@ -1,0 +1,29 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-title {
+  font-size: var(--font-size-md);
+  font-family: var(--title-font);
+  font-weight: var(--title-font-weight);
+  margin-bottom: 0.5rem;
+}
+
+.home-content {
+  margin-top: 3rem;
+  max-width: 50rem;
+}
+
+.home-logo {
+  align-self: flex-start;
+  margin-bottom: 2rem;
+}
+
+.home-icon {
+  flex-grow: 1;
+}
+
+.home-icon img {
+  height: 1rem;
+}
