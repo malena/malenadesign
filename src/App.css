@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
   --brand-color: #bf0029;
   --brand-complimentary-color: #583e40;
-  --font-size-sm: 18px;
-  --font-size-md: 36px;
+  --font-size-sm: 1.8rem;
+  --font-size-md: 2.1rem;
   --title-font: "Noto Serif", serif;
-  --title-font-weight: 400;
-  --text-font: sans-serif;
+  --title-font-weight: 600;
+  --text-font: "Poppins", sans-serif;
+  --text-font-weight: 300;
+  --text-line-height: 1.4;
 }
 
 h1,
@@ -20,44 +23,63 @@ ul,
 p {
   margin: 0;
   color: var(--brand-complimentary-color);
+  line-height: var(--text-line-height);
 }
 
-p {
+p,
+li {
   font-size: var(--font-size-sm);
+  font-family: var(--text-font);
+  font-weight: var(--text-font-weight);
 }
 
 .app-container {
-  border: solid 1px purple;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   background-color: #fffcfc;
+  margin: auto;
+  min-height: 100vh;
+  max-width: 80vw;
 }
 
 .home {
   display: flex;
   flex-direction: column;
-  justify-content: left;
-  align-items: flex-start;
 }
 
 .home-title {
   font-size: var(--font-size-md);
   font-family: var(--title-font);
   font-weight: var(--title-font-weight);
+  margin-bottom: 0.5rem;
+}
+
+.home-content {
+  margin-top: 3rem;
+  max-width: 50rem;
 }
 
 .home-logo {
-  height: 16vmin;
+  align-self: flex-start;
+  margin-bottom: 2rem;
 }
 
+.home-icon {
+  flex-grow: 1;
+}
+
+.home-icon img {
+  height: 1rem;
+}
 .header {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  margin: 4rem 0;
+  align-items: center;
 }
 
-.header-menu {
+.header-menu ul {
   display: inline-flex;
   list-style-type: none;
 }
@@ -66,4 +88,6 @@ p {
   margin-right: 1rem;
   text-decoration: none;
   color: var(--brand-color);
+  font-size: var(--font-size-sm);
+  font-family: var(--title-font);
 }
