@@ -1,0 +1,45 @@
+.work {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.work-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 38rem;
+  align-self: flex-end;
+}
+
+.work-title {
+  color: var(--color-primary);
+  margin-bottom: 1.5rem;
+}
+
+.work-subtitle {
+  margin-bottom: 0.5rem;
+}
+
+.work-list-item {
+  margin-bottom: 2rem;
+}
+
+.work-list-points {
+  margin: 2rem 0;
+}
+
+.work-list-points-item {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.work-checkbox {
+  width: 2rem;
+  height: 2rem;
+  padding-right: 1rem;
+  padding-top: 0.3rem;
+}
+
+.work-summary {
+  margin-top: 1rem;
+}
