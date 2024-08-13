@@ -91,10 +91,7 @@ function Work() {
             </p>
             <div className="work-summary">
               <p>
-                <strong>Role:</strong> Lead Designer
-              </p>
-              <p>
-                <strong>Duration:</strong> 12 weeks
+                <strong>Duration:</strong> 5 years
               </p>
             </div>
             <ul className="work-list-points">
