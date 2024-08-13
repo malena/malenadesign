@@ -1,5 +1,5 @@
 import "./Header.css";
-import favicon from "./favicon.svg";
+import favicon from "./../images/favicon.svg";
 
 function Header() {
   return (
