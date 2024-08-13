@@ -8,18 +8,16 @@
 .about-content {
   display: flex;
   flex-direction: column;
-  max-width: 45rem;
+  max-width: 38rem;
   align-self: flex-end;
 }
 
 .about-title {
   color: var(--color-primary);
-  font-size: var(--font-size-md);
   margin-bottom: 1.5rem;
 }
 
 .about-subtitle {
-  font-size: var(--font-size-sm);
   margin-bottom: 0.5rem;
 }
 

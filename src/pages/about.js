@@ -12,8 +12,8 @@ function About() {
             </h2>
             <p className="about-description">
               For the last 15 years I dedicated myself as a front-end web
-              developer, turning full designs into beautiful, responsive html
-              pages and web apps.
+              developer, turning full designs into beautiful, responsive web
+              pages and apps.
             </p>
           </li>
           <li className="about-list-item">
@@ -22,7 +22,11 @@ function About() {
             </h2>
             <p className="about-description">
               I have vast experience creating and turning Figma design guides
-              into organized styles and react components in the codebase.
+              and libraries into organized styles and{" "}
+              <i>
+                <strong>react.js</strong>
+              </i>{" "}
+              components.
             </p>
           </li>
           <li className="about-list-item">

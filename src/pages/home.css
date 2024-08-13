@@ -7,7 +7,6 @@
 
 .home-title {
   font-size: var(--font-size-md);
-  font-family: var(--font-serif);
   font-weight: var(--font-weight-strong);
   margin-bottom: 0.5rem;
 }
