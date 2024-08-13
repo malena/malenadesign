@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/malenadesign/static/css/main.d5592ffc.css",
-    "main.js": "/malenadesign/static/js/main.e1847f1b.js",
+    "main.css": "/malenadesign/static/css/main.57a70742.css",
+    "main.js": "/malenadesign/static/js/main.a8c45b01.js",
     "static/js/787.09c45542.chunk.js": "/malenadesign/static/js/787.09c45542.chunk.js",
     "static/media/logo.svg": "/malenadesign/static/media/logo.bfc050e052408724275728c9dc02c70c.svg",
     "index.html": "/malenadesign/index.html",
-    "main.d5592ffc.css.map": "/malenadesign/static/css/main.d5592ffc.css.map",
-    "main.e1847f1b.js.map": "/malenadesign/static/js/main.e1847f1b.js.map",
+    "main.57a70742.css.map": "/malenadesign/static/css/main.57a70742.css.map",
+    "main.a8c45b01.js.map": "/malenadesign/static/js/main.a8c45b01.js.map",
     "787.09c45542.chunk.js.map": "/malenadesign/static/js/787.09c45542.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5592ffc.css",
-    "static/js/main.e1847f1b.js"
+    "static/css/main.57a70742.css",
+    "static/js/main.a8c45b01.js"
   ]
 }

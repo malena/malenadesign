@@ -1,0 +1,26 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  border: solid 1px red;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 38rem;
+  align-self: flex-end;
+}
+
+.about-title {
+  color: var(--color-primary);
+  margin-bottom: 1.5rem;
+}
+
+.about-subtitle {
+  margin-bottom: 0.5rem;
+}
+
+.about-list-item {
+  margin-bottom: 2rem;
+}

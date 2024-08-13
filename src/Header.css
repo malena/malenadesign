@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 4rem 0;
+  align-items: center;
+}
+
+.header-menu ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.header-menu li a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: var(--color-secondary);
+  font-size: var(--font-size-sm);
+  font-family: var(--font-serif);
+  font-weight: var(--font-weight-bold);
+}
+
+.header-menu li a:hover {
+  color: var(--brand-color);
+}
