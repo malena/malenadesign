@@ -62,12 +62,15 @@ li {
   font-size: var(--font-size-sm);
 }
 
-.app-container {
+.container {
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
-  background-color: var(--color-background);
   margin: auto;
   min-height: 100vh;
   max-width: 80vw;
+}
+
+.app-container {
+  background-color: var(--color-background);
 }

@@ -26,8 +26,8 @@
 }
 
 .contact-title {
+  color: var(--color-primary);
   position: relative;
-  font-size: var(--font-size-md);
   font-weight: var(--font-weight-strong);
   margin-bottom: 0.5rem;
 }
