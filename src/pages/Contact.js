@@ -7,7 +7,7 @@ function Contact() {
   return (
     <section id="Contact" className="contact">
       <div className="contact-content">
-        <h1 className="contact-title">Let's Chat!</h1>
+        <h1 className="section-title contact-title">Let's Chat!</h1>
         <p className="contact-description">
           <a href="mailto:malena.andrade@gmail.com">malena.andrade@gmail.com</a>
         </p>

@@ -3,6 +3,7 @@
 
 :root {
   --color-primary: #bf0029;
+  --color-primary-light: #ebc4ce;
   --color-secondary: #583e40;
   --color-background: #fffcfc;
   --font-serif: "Noto Serif", serif;
@@ -21,6 +22,7 @@
   --line-height-text: 1.4;
   font-size: 16px;
   line-height: 16px;
+  scroll-behavior: smooth;
 }
 
 strong {
@@ -67,8 +69,24 @@ a {
   text-decoration: none;
 }
 
+a:link,
 a:hover {
   color: var(--color-primary);
+}
+
+a:active,
+a:focus-visible,
+a:focus {
+  color: var(--color-primary);
+  outline-color: var(--color-primary-light);
+  outline-offset: 0.4rem;
+}
+
+.app-container {
+  background-color: var(--color-background);
+  background-image: url("./images/bg.svg");
+  background-position: -50vw 0;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -80,6 +98,12 @@ a:hover {
   max-width: 80vw;
 }
 
-.app-container {
-  background-color: var(--color-background);
+.section-content {
+  margin-right: 10rem;
+  margin-top: 3rem;
+}
+
+.section-title {
+  color: var(--color-primary);
+  margin-bottom: 1.5rem;
 }

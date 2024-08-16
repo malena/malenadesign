@@ -11,11 +11,6 @@
   align-self: flex-end;
 }
 
-.about-title {
-  color: var(--color-primary);
-  margin-bottom: 1.5rem;
-}
-
 .about-subtitle {
   margin-bottom: 0.5rem;
 }

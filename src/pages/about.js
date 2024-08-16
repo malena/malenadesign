@@ -3,8 +3,8 @@ import "./About.css";
 function About() {
   return (
     <section id="About" className="about">
-      <div className="about-content">
-        <h1 className="about-title">About</h1>
+      <div className="section-content about-content">
+        <h1 className="section-title about-title">About</h1>
         <ul>
           <li className="about-list-item">
             <h2 className="about-subtitle">

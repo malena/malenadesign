@@ -4,8 +4,8 @@ import checkbox from "./../images/checkbox.svg";
 function Work() {
   return (
     <section id="Work" className="work">
-      <div className="work-content">
-        <h1 className="work-title">Work</h1>
+      <div className="section-content work-content">
+        <h1 className="section-title work-title">Work</h1>
         <ul>
           <li className="work-list-item">
             <h2 className="work-subtitle">Canadian Starmaker Fund</h2>
