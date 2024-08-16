@@ -1,27 +1,28 @@
 .contact {
-  display: flex;
-  flex-direction: column;
-  padding: 30vh 0 10vh;
+  @media (min-width: 576px) {
+    min-height: 100%;
+    margin-top: 4rem;
+  }
 }
 
 .contact-content {
+  display: flex;
   position: relative;
-  margin-top: 3rem;
-  z-index: 1;
-  margin-left: 3rem;
-  margin-right: 3rem;
-}
-
-.contact-content::before {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  height: calc(100% + 6rem);
-  width: calc(100% + 6rem);
   border-radius: 1rem;
   background-color: #f7ecee;
-  top: -3rem;
-  left: -3rem;
+  padding: 1rem;
+  flex-direction: column;
+
+  @media (min-width: 576px) {
+    padding: 2rem;
+    flex-direction: row;
+  }
+}
+
+.contact-description {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .contact-title {
@@ -35,16 +36,26 @@
   margin-bottom: 2rem;
 }
 
-.contact-icon {
-  flex-grow: 1;
-}
-
-.contact-icon img {
-  height: 1rem;
-}
-
 .contact-social-icons {
-  position: absolute;
-  top: 0;
-  right: 0;
+  display: flex;
+  gap: 1rem;
+  padding-top: 1rem;
+  position: relative;
+
+  @media (min-width: 576px) {
+    position: absolute;
+    padding-top: 0;
+    right: 2rem;
+    top: 2.5rem;
+  }
+}
+
+.contact-social-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.contact-email {
+  display: block;
+  margin-top: 0.5rem;
 }

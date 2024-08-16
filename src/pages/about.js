@@ -2,12 +2,12 @@ import "./About.css";
 
 function About() {
   return (
-    <section id="About" className="about">
+    <section id="About" className="about main-section">
       <div className="section-content about-content">
         <h1 className="section-title about-title">About</h1>
-        <ul>
-          <li className="about-list-item">
-            <h2 className="about-subtitle">
+        <ul className="section-list">
+          <li className="section-list-item about-list-item">
+            <h2 className="section-subtitle about-subtitle">
               Over 15 years experience as a front-end web developer.
             </h2>
             <p className="about-description">
@@ -16,8 +16,8 @@ function About() {
               pages and apps.
             </p>
           </li>
-          <li className="about-list-item">
-            <h2 className="about-subtitle">
+          <li className="section-list-item about-list-item">
+            <h2 className="section-subtitle about-subtitle">
               Crafting design guides and custom UI component libraries.
             </h2>
             <p className="about-description">
@@ -29,9 +29,10 @@ function About() {
               components.
             </p>
           </li>
-          <li className="about-list-item">
-            <h2 className="about-subtitle">I’m a passionate Creative Lead.</h2>
-
+          <li className="section-list-item about-list-item">
+            <h2 className="section-subtitle about-subtitle">
+              I’m a passionate Creative Lead.
+            </h2>
             <p className="about-description">
               Besides leading teams to successful project launches, I love
               leading workshops, hackathons and designathons. I enjoy sharing
