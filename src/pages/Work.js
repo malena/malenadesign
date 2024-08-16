@@ -3,7 +3,7 @@ import checkbox from "./../images/checkbox.svg";
 
 function Work() {
   return (
-    <section className="work">
+    <section id="Work" className="work">
       <div className="work-content">
         <h1 className="work-title">Work</h1>
         <ul>

@@ -1,8 +1,7 @@
 .contact {
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - 11rem);
-  padding-top: 30vh;
+  padding: 30vh 0 10vh;
 }
 
 .contact-content {

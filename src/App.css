@@ -62,6 +62,15 @@ li {
   font-size: var(--font-size-sm);
 }
 
+a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-primary);
+}
+
 .container {
   display: flex;
   flex-direction: column;
