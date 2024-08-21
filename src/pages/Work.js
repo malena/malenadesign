@@ -3,12 +3,14 @@ import checkbox from "./../images/checkbox.svg";
 
 function Work() {
   return (
-    <section id="Work" className="work">
-      <div className="work-content">
-        <h1 className="work-title">Work</h1>
-        <ul>
-          <li className="work-list-item">
-            <h2 className="work-subtitle">Canadian Starmaker Fund</h2>
+    <section id="Work" className="work main-section">
+      <div className="section-content work-content">
+        <h1 className="section-title work-title">Work</h1>
+        <ul className="section-list">
+          <li className="section-list-item work-list-item">
+            <h2 className="section-subtitle work-subtitle">
+              Canadian Starmaker Fund
+            </h2>
             <p className="work-description">
               The aim of this project was to re-design the application, create
               new user flows and replace old codebase with react components.
@@ -44,8 +46,10 @@ function Work() {
               </li>
             </ul>
           </li>
-          <li className="work-list-item">
-            <h2 className="work-subtitle">EM:RAP Urgent Care</h2>
+          <li className="section-list-item work-list-item">
+            <h2 className="section-subtitle work-subtitle">
+              EM:RAP Urgent Care
+            </h2>
             <p className="work-description">
               The aim of this project was to create a branded sub section for
               their Urgent Care audio program.
@@ -62,29 +66,30 @@ function Work() {
               <li className="work-list-points-item">
                 <img className="work-checkbox" src={checkbox} alt="checkbox" />
                 <p>
-                  Meeting and brainstorming with key people to capture vision
-                  and goals.
+                  Client meetings, brainstorming, creating mood boards, mockups
+                  and building a component based design library and style guide.
                 </p>
               </li>
               <li className="work-list-points-item">
                 <img className="work-checkbox" src={checkbox} alt="checkbox" />
                 <p>
-                  Creating mood boards, mockups and building a component based
-                  design library and style guide.
+                  Designing responsive pages and prototyping interactive
+                  actions.
                 </p>
               </li>
               <li className="work-list-points-item">
                 <img className="work-checkbox" src={checkbox} alt="checkbox" />
                 <p>
-                  Designing responsive pages, prototyping interactive actions
-                  and leading meetings with client and developers to present
-                  design, library components and interactive elements.
+                  Leading meetings with develoeprs to present design and
+                  interactive elements.
                 </p>
               </li>
             </ul>
           </li>
-          <li className="work-list-item">
-            <h2 className="work-subtitle">Board Member for silverorange</h2>
+          <li className="section-list-item work-list-item">
+            <h2 className="section-subtitle work-subtitle">
+              Board Member for silverorange
+            </h2>
             <p className="work-description">
               The aim of the board was to oversee and advise the company so it
               functions as effectively as possible.

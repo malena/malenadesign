@@ -4,26 +4,6 @@
   min-height: 100vh;
 }
 
-.work-content {
-  display: flex;
-  flex-direction: column;
-  max-width: 38rem;
-  align-self: flex-end;
-}
-
-.work-title {
-  color: var(--color-primary);
-  margin-bottom: 1.5rem;
-}
-
-.work-subtitle {
-  margin-bottom: 0.5rem;
-}
-
-.work-list-item {
-  margin-bottom: 2rem;
-}
-
 .work-list-points {
   margin: 2rem 0;
 }
