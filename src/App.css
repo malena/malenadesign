@@ -8,10 +8,11 @@
   --color-background: #fffcfc;
   --font-serif: "Noto Serif", serif;
   --font-sans-serif: "Poppins", sans-serif;
-  --font-size-xs: 1.1rem;
+  --font-size-xxs: 1.1rem;
+  --font-size-xs: 1.3rem;
   --font-size-sm: 1.6rem;
   --font-size-md: 1.8rem;
-  --font-size-lg: 3rem;
+  --font-size-lg: 2.6rem;
   --font-size-xlg: 3rem;
   --font-weight-strong: 800;
   --font-weight-bold: 700;
@@ -49,16 +50,16 @@ ul {
 }
 
 h1 {
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-lg);
   font-weight: var(--font-weight-strong);
 
   @media (min-width: 576px) {
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-xlg);
   }
 }
 
 h2 {
-  font-size: var(--font-size-xs);
+  font-size: var(--font-size-sm);
   font-weight: var(--font-weight-bold);
 
   @media (min-width: 576px) {
@@ -72,8 +73,8 @@ li {
   color: var(--color-secondary);
   font-family: var(--font-sans-serif);
   font-weight: var(--font-weight-light);
-  list-style-type: none;
   font-size: var(--font-size-xs);
+  list-style-type: none;
   margin: 0;
 
   @media (min-width: 576px) {
@@ -111,7 +112,7 @@ a:focus {
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   margin: auto;
-  padding: 2rem 2rem 6rem 2rem;
+  padding: 2rem 1.5rem 4rem 1.5rem;
 
   @media (min-width: 576px) {
     max-width: 80vw;
@@ -127,7 +128,6 @@ a:focus {
   align-self: flex-end;
 
   @media (min-width: 576px) {
-    margin-top: 3rem;
     margin-right: 10rem;
   }
 }
@@ -135,7 +135,10 @@ a:focus {
 .section-title {
   color: var(--color-primary);
   margin-bottom: 1rem;
+  padding-top: 6rem;
+
   @media (min-width: 576px) {
+    padding-top: 8rem;
     margin-bottom: 3rem;
   }
 }
@@ -152,8 +155,6 @@ a:focus {
 }
 
 .main-section {
-  margin-bottom: 4rem;
-
   @media (min-width: 576px) {
     min-height: calc(100vh - 3rem);
     margin-bottom: 0;
