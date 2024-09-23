@@ -1,131 +1,107 @@
 import "./Work.css";
-import checkbox from "./../images/checkbox.svg";
+import responsiveIcon from "./../images/responsive-icon.svg";
+import wireframingIcon from "./../images/wireframing-icon.svg";
+import boardIcon from "./../images/board-icon.svg";
 
 function Work() {
   return (
     <section id="Work" className="work main-section">
       <div className="section-content work-content">
         <h1 className="section-title work-title">Work</h1>
-        <ul className="section-list">
+        <ul className="section-list work-section-list">
           <li className="section-list-item work-list-item">
-            <h2 className="section-subtitle work-subtitle">
-              Canadian Starmaker Fund
-            </h2>
-            <p className="work-description">
-              The aim of this project was to re-design the application, create
-              new user flows and replace old codebase with react components.
-            </p>
-            <div className="work-summary">
-              <p>
-                <strong>Role:</strong> Lead Designer
-              </p>
-              <p>
-                <strong>Duration:</strong> 12 weeks
+            <div className="work-list-content">
+              <h2 className="section-subtitle work-subtitle">
+                UX &amp; UI Design Lead
+              </h2>
+              <h3 className="work-subtitle-sub">Canadian Starmaker Fund</h3>
+              <p className="work-description">
+                Run design sprints and meetings, create new user flows,
+                re-design user interface and replace old codebase with react
+                components.
               </p>
             </div>
-            <ul className="work-list-points">
-              <li className="work-list-points-item">
-                <img className="work-checkbox" src={checkbox} alt="checkbox" />
-                <p>
-                  Leading meetings directly with client and developers to ensure
-                  common vision, goals, scope and processes.
-                </p>
-              </li>
-              <li className="work-list-points-item">
-                <img className="work-checkbox" src={checkbox} alt="checkbox" />
-                <p>
-                  Building a component based design library and style guide.
-                </p>
-              </li>
-              <li className="work-list-points-item">
-                <img className="work-checkbox" src={checkbox} alt="checkbox" />
-                <p>
-                  Wireframing application structure and prototyping user
-                  interface in both mobile and desktop sizes.
-                </p>
-              </li>
-            </ul>
+            <div className="work-icon">
+              <img
+                className="icon-wireframing"
+                src={wireframingIcon}
+                alt="Wireframing"
+              />
+            </div>
           </li>
           <li className="section-list-item work-list-item">
-            <h2 className="section-subtitle work-subtitle">
-              EM:RAP Urgent Care
-            </h2>
-            <p className="work-description">
-              The aim of this project was to create a branded sub section for
-              their Urgent Care audio program.
-            </p>
-            <div className="work-summary">
-              <p>
-                <strong>Role:</strong> Lead Designer
-              </p>
-              <p>
-                <strong>Duration:</strong> 12 weeks
+            <div className="work-list-content">
+              <h2 className="section-subtitle work-subtitle">
+                Branding &amp; Website Design Lead
+              </h2>
+              <h3 className="work-subtitle-sub">EM:RAP Urgent Care</h3>
+              <p className="work-description">
+                Lead branding meetings, create moodboards, mockups, style guide
+                and code a branded website for an Urgent Care audio subscription
+                program.
               </p>
             </div>
-            <ul className="work-list-points">
-              <li className="work-list-points-item">
-                <img className="work-checkbox" src={checkbox} alt="checkbox" />
-                <p>
-                  Client meetings, brainstorming, creating mood boards, mockups
-                  and building a component based design library and style guide.
-                </p>
-              </li>
-              <li className="work-list-points-item">
-                <img className="work-checkbox" src={checkbox} alt="checkbox" />
-                <p>
-                  Designing responsive pages and prototyping interactive
-                  actions.
-                </p>
-              </li>
-              <li className="work-list-points-item">
-                <img className="work-checkbox" src={checkbox} alt="checkbox" />
-                <p>
-                  Leading meetings with develoeprs to present design and
-                  interactive elements.
-                </p>
-              </li>
-            </ul>
+            <div className="work-icon">
+              <img
+                className="icon-responsive"
+                src={responsiveIcon}
+                alt="Responsive Devices"
+              />
+            </div>
           </li>
           <li className="section-list-item work-list-item">
-            <h2 className="section-subtitle work-subtitle">
-              Board Member for silverorange
-            </h2>
-            <p className="work-description">
-              The aim of the board was to oversee and advise the company so it
-              functions as effectively as possible.
-            </p>
-            <div className="work-summary">
-              <p>
-                <strong>Duration:</strong> 5 years
+            <div className="work-list-content">
+              <h2 className="section-subtitle work-subtitle">Board Member</h2>
+              <h3 className="work-subtitle-sub">
+                Silverorange Board of Directors
+              </h3>
+              <p className="work-description">
+                Oversee and forecast budgets, provide feedback on shareholder
+                policies, restructuring of company hierarchy, hiring and company
+                health confidence rating.
               </p>
             </div>
-            <ul className="work-list-points">
-              <li className="work-list-points-item">
-                <img className="work-checkbox" src={checkbox} alt="checkbox" />
-                <p>
-                  Reviewing current and future work contracts to strategically
-                  plan for financial risks.
-                </p>
-              </li>
-              <li className="work-list-points-item">
-                <img className="work-checkbox" src={checkbox} alt="checkbox" />
-                <p>
-                  Participating in hiring interviews and evaluation of Lead
-                  Designer, Project Manager, Developers, Human Resource
-                  Coordinator and Chief Financial Officer.
-                </p>
-              </li>
-              <li className="work-list-points-item">
-                <img className="work-checkbox" src={checkbox} alt="checkbox" />
-                <p>
-                  Advocate for HR handbook, fair employee culture and welfare
-                  while staying on track with company mission and philosophy.
-                </p>
-              </li>
-            </ul>
+            <div className="work-icon">
+              <img className="icon-board" src={boardIcon} alt="Board Room" />
+            </div>
           </li>
         </ul>
       </div>
+      <h2 className="section-subtitle testimonial-subtitle">
+        What co-workers are saying about me!
+      </h2>
+      <ul className="section-list work-section-testimonials">
+        <li className="work-section-testimonial testimonial-1">
+          I've had the pleasure of working with Malena for 7+ years. Many of
+          those years were as peers at a board level. Malena is thoughtful, hard
+          working, and thorough. She is also a talented designer with a fine
+          attention to detail. -{" "}
+          <strong>
+            <i>Dan James, Founder at Silverorange</i>
+          </strong>
+        </li>
+        <li className="work-section-testimonial testimonial-2">
+          Malena is exceptionally talented and dedicated developer, eager and
+          able to tackle hard challenges and pick up new skills on the fly. She
+          cares deeply about her code and her craft and can always be counted on
+          her document and share her solutions with the rest of the team.
+          Working in a virtual team she clearly showed she treats work as
+          something much greater than a job, and that's a gift to any team. -
+          <strong>
+            <i>Michael Lewkowitz, General Partner at Possibilian</i>
+          </strong>
+        </li>
+        <li className="work-section-testimonial testimonial-3">
+          I've worked with Malena for years as both as a designer and a
+          developer for web and web mobile projects. She always brings an
+          original perspective to each project she works on. She excels at
+          client collaboration and bringing stakeholders into the design
+          process. -{" "}
+          <strong>
+            <i>Clare Raspopow, CEO at Silverorange</i>
+          </strong>
+        </li>
+      </ul>
     </section>
   );
 }

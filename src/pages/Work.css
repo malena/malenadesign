@@ -4,6 +4,50 @@
   min-height: 100vh;
 }
 
+.work-content {
+  width: 100%;
+}
+
+.work-subtitle {
+  margin-bottom: 0;
+}
+
+.work-subtitle-sub {
+  margin-bottom: 0.5rem;
+}
+
+.testimonial-subtitle {
+  text-align: center;
+  padding: 4rem 0 2rem;
+}
+
+.work-list-item {
+  background-color: rgba(88, 62, 64, 0.03);
+  padding: 1.6rem;
+  border-radius: 1.6rem;
+  margin-bottom: 2rem;
+  display: flex;
+  grid-gap: 2rem;
+  flex-direction: column;
+
+  @media (min-width: 576px) {
+    padding: 2.8rem;
+    flex-direction: row;
+  }
+}
+
+.work-list-content {
+  @media (min-width: 576px) {
+    max-width: 80%;
+  }
+}
+
+.work-section-list {
+  @media (min-width: 768px) {
+    margin-top: 9rem;
+  }
+}
+
 .work-list-points {
   margin: 2rem 0;
 }
@@ -22,4 +66,86 @@
 
 .work-summary {
   margin-top: 1rem;
+}
+
+.work-icon {
+  align-content: center;
+  text-align: center;
+  @media (min-width: 576px) {
+    text-align: left;
+  }
+}
+
+.work-icon img {
+  width: 50%;
+
+  @media (min-width: 576px) {
+    width: 100%;
+  }
+}
+
+.work-section-testimonials {
+  display: block;
+  margin: auto;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    width: 29rem;
+  }
+  @media (min-width: 1200px) {
+    width: 100%;
+  }
+}
+
+.work-section-testimonial {
+  padding: 2rem 2rem 4.5rem 2rem;
+  background-repeat: no-repeat;
+  background-image: url("../images/conversation-bubble-right.svg");
+  background-size: cover;
+  font-size: var(--font-size-xxs);
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  text-align: left;
+  margin: 2rem 0;
+
+  @media (min-width: 768px) {
+    margin: 0;
+  }
+}
+
+.testimonial-1 {
+  width: 100%;
+  @media (min-width: 768px) {
+    margin-left: -14rem;
+  }
+  @media (min-width: 1200px) {
+    margin-left: 0;
+    width: 19.5rem;
+  }
+}
+
+.testimonial-2 {
+  margin: 0;
+  padding: 5rem 2rem 2rem 2rem;
+  background-image: url("../images/conversation-bubble-top.svg");
+
+  @media (min-width: 768px) {
+    margin: 0 -4rem 4rem 0rem;
+  }
+  @media (min-width: 1200px) {
+    margin: 0 1rem;
+    width: 26rem;
+  }
+}
+
+.testimonial-3 {
+  background-image: url("../images/conversation-bubble.svg");
+  @media (min-width: 768px) {
+    margin-left: -4rem;
+  }
+  @media (min-width: 1200px) {
+    margin: 0;
+    width: 19.5rem;
+  }
 }
