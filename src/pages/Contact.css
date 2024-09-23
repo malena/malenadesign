@@ -1,0 +1,36 @@
+.contact {
+  margin-top: 4rem;
+  @media (min-width: 576px) {
+    min-height: 100%;
+    margin-top: 6rem;
+  }
+}
+
+.contact-content {
+  text-align: center;
+}
+
+.contact-title {
+  font-weight: var(--font-weight-strong);
+  margin-bottom: 0.5rem;
+  padding-top: 0;
+  margin-right: 0;
+}
+
+.contact-social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.contact-social-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.contact-email {
+  display: block;
+  margin-top: 0.5rem;
+  word-break: break-all;
+}

@@ -1,5 +1,6 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "./docs/static/css/main.d5592ffc.css",
     "main.js": "./docs/static/js/main.7169285a.js",
     "static/js/787.09c45542.chunk.js": "./docs/static/js/787.09c45542.chunk.js",
@@ -12,5 +13,19 @@
   "entrypoints": [
     "static/css/main.d5592ffc.css",
     "static/js/main.7169285a.js"
+=======
+    "main.css": "/malenadesign/static/css/main.57a70742.css",
+    "main.js": "/malenadesign/static/js/main.a8c45b01.js",
+    "static/js/787.09c45542.chunk.js": "/malenadesign/static/js/787.09c45542.chunk.js",
+    "static/media/logo.svg": "/malenadesign/static/media/logo.bfc050e052408724275728c9dc02c70c.svg",
+    "index.html": "/malenadesign/index.html",
+    "main.57a70742.css.map": "/malenadesign/static/css/main.57a70742.css.map",
+    "main.a8c45b01.js.map": "/malenadesign/static/js/main.a8c45b01.js.map",
+    "787.09c45542.chunk.js.map": "/malenadesign/static/js/787.09c45542.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57a70742.css",
+    "static/js/main.a8c45b01.js"
+>>>>>>> update-design
   ]
 }
