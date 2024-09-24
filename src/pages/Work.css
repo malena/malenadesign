@@ -36,15 +36,9 @@
   }
 }
 
-.work-list-content {
-  @media (min-width: 576px) {
-    max-width: 80%;
-  }
-}
-
 .work-section-list {
   @media (min-width: 768px) {
-    margin-top: 9rem;
+    padding-top: 9rem;
   }
 }
 
@@ -62,6 +56,12 @@
   height: 2rem;
   padding-right: 1rem;
   padding-top: 0.3rem;
+}
+
+.work-description {
+  @media (min-width: 576px) {
+    max-width: 90%;
+  }
 }
 
 .work-summary {
