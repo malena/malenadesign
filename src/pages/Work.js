@@ -18,7 +18,7 @@ function Work() {
               <p className="work-description">
                 Run design sprints and meetings, create new user flows,
                 re-design user interface and replace old codebase with react
-                components.
+                based components.
               </p>
             </div>
             <div className="work-icon">
