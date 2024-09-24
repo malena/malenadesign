@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "./static/css/main.d5592ffc.css",
-    "main.js": "./static/js/main.f0f37a75.js",
+    "main.css": "./static/css/main.cba5e57a.css",
+    "main.js": "./static/js/main.956c5a13.js",
     "static/js/787.09c45542.chunk.js": "./static/js/787.09c45542.chunk.js",
-    "static/media/logo.svg": "./static/media/logo.bfc050e052408724275728c9dc02c70c.svg",
+    "static/media/bg.svg": "./static/media/bg.947f4dbeffac0ee962df.svg",
+    "static/media/logo.svg": "./static/media/logo.92d2c9e39f790f68c60d57895ed91595.svg",
+    "static/media/board-icon.svg": "./static/media/board-icon.b7ea55657f4a2f50ceced2534cabb63a.svg",
+    "static/media/wireframing-icon.svg": "./static/media/wireframing-icon.84dd8bd8f79966f6d7477cd991537857.svg",
+    "static/media/instagram.svg": "./static/media/instagram.effcf15703348e0c3b2beb92babe2d2f.svg",
+    "static/media/responsive-icon.svg": "./static/media/responsive-icon.10a08bc314cc09d05904bfda46431e8d.svg",
+    "static/media/github.svg": "./static/media/github.4e803c3cead3c13aae8f33f3faa19f47.svg",
+    "static/media/favicon.svg": "./static/media/favicon.888aba062afe8c9096698db75071eb98.svg",
     "index.html": "./index.html",
-    "main.d5592ffc.css.map": "./static/css/main.d5592ffc.css.map",
-    "main.f0f37a75.js.map": "./static/js/main.f0f37a75.js.map",
+    "static/media/linkedin.svg": "./static/media/linkedin.3a1f4c98f7fcd47a5c9290569aa168ad.svg",
+    "static/media/conversation-bubble.svg": "./static/media/conversation-bubble.432c30a319570fea74bb.svg",
+    "static/media/conversation-bubble-right.svg": "./static/media/conversation-bubble-right.e4d6734e40050f191f70.svg",
+    "static/media/conversation-bubble-top.svg": "./static/media/conversation-bubble-top.dc0c5afbb516f2e0277a.svg",
+    "main.cba5e57a.css.map": "./static/css/main.cba5e57a.css.map",
+    "main.956c5a13.js.map": "./static/js/main.956c5a13.js.map",
     "787.09c45542.chunk.js.map": "./static/js/787.09c45542.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5592ffc.css",
-    "static/js/main.f0f37a75.js"
+    "static/css/main.cba5e57a.css",
+    "static/js/main.956c5a13.js"
   ]
 }

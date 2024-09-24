@@ -8,11 +8,7 @@ module.exports = {
     return config;
   },
   paths: function (paths, env) {
-<<<<<<< HEAD
-    // Changing public to static
-=======
     // Changing build to docs
->>>>>>> update-design
     paths.appBuild = path.resolve(__dirname, "./docs");
     paths.appHtml = path.resolve(__dirname, "./docs/index.html");
     return paths;
