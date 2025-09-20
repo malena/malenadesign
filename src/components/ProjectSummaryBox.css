@@ -1,0 +1,26 @@
+.cases-gray-box {
+  background-color: #edecec;
+  border-radius: 1rem;
+  padding: 1.2rem 1.5rem;
+  max-width: 28rem;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    width: 115%;
+  }
+}
+
+.cases-gray-box p {
+  margin: 0;
+  font-size: var(--font-size-xxs);
+}
+
+.case-roles {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cases-role strong {
+  display: flex;
+}

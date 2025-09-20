@@ -1,0 +1,24 @@
+.cases-tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.3rem;
+  height: fit-content;
+
+  @media (min-width: 768px) {
+    gap: 0.8rem 0.4rem;
+  }
+}
+
+.cases-tags li {
+  background-color: #edecec;
+  border-radius: 1rem;
+  font-size: var(--font-size-xxxs);
+  padding: 0.4rem 0.8rem;
+
+  @media (min-width: 768px) {
+    padding: 0.5rem 1.3rem;
+    font-size: var(--font-size-xxs);
+  }
+}

@@ -1,0 +1,17 @@
+.work {
+  padding-top: 7rem;
+
+  @media (min-width: 1200px) {
+    padding-top: 10rem;
+  }
+}
+
+.work-list-links {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1rem;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}

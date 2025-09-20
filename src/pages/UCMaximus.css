@@ -1,0 +1,39 @@
+.case-steps-first-section {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  padding: 2rem;
+  gap: 2rem;
+  border-radius: 0.5rem;
+  background-color: #fff6e1;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.case-bullet-list-container:nth-child(2) {
+  @media (min-width: 768px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-right: solid 1px #ebcc7e;
+    border-left: solid 1px #ebcc7e;
+  }
+}
+
+.case-testimonials {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  gap: 2rem;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.case-ideation .cases-flex {
+  gap: 4.5rem;
+}
+
+.case-ideation img {
+  margin-top: -3.5rem;
+}

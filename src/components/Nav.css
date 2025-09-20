@@ -1,0 +1,176 @@
+.header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0;
+  background-color: #fff;
+  box-shadow: -1px 0 15px -4px rgba(97, 97, 97, 1);
+  z-index: 1;
+  padding: 1rem;
+
+  @media (min-width: 768px) {
+    justify-content: flex-end;
+    padding: 1rem 2rem;
+  }
+}
+
+.header-menu-list {
+  display: inline-flex;
+  list-style-type: none;
+  padding: 1rem;
+}
+
+.header-menu-list-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: var(--font-serif);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-xs);
+  position: relative;
+  margin: 0 1rem;
+
+  @media (min-width: 768px) {
+    font-size: var(--font-size-sm);
+  }
+}
+
+.header-menu-list-item:nth-child(1) {
+  @media (min-width: 768px) {
+    min-width: 9rem;
+  }
+}
+
+.header-icon {
+  flex-grow: 1;
+  position: relative;
+  z-index: -1;
+}
+
+.header-icon a {
+  vertical-align: -webkit-baseline-middle;
+}
+
+.header-icon img {
+  height: 1.5rem;
+  @media (min-width: 768px) {
+    height: 2rem;
+  }
+}
+
+.header-dropdown-menu {
+  display: none;
+}
+
+.header-dropdown-menu li {
+  margin: 0.5rem 0;
+}
+
+.case-link {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.header-menu-container.not-active .header-menu-list .case-link:hover {
+  color: #fff;
+}
+
+.header-menu-container.not-active .header-menu-list .case-link:hover ul {
+  display: block;
+  position: absolute;
+  top: 0;
+  text-align: left;
+  width: 100%;
+  padding-top: 2.5rem;
+}
+
+.header-menu-container.not-active .header-menu-list .case-link:hover:before {
+  content: "";
+  background-color: var(--color-primary);
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  width: 10.8rem;
+  height: 12.5rem;
+  display: block;
+  position: absolute;
+  top: -2rem;
+  z-index: -1;
+  left: -1rem;
+  border: solid 3px #fff;
+  border-top: none;
+}
+
+.header-menu-container.not-active .header-menu-list .case-link:hover ul li a {
+  color: #fff;
+}
+
+.header-menu-container {
+  display: none;
+  @media (min-width: 768px) {
+    display: block;
+  }
+}
+
+.header-menu-container.active {
+  display: block;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: #fff;
+  height: 100%;
+  z-index: -1;
+  width: 100%;
+}
+
+.header-menu-list {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  @media (min-width: 768px) {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+}
+
+.header-menu-container.active .header-menu-list {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.header-menu-container.active .header-menu-list .case-link {
+  position: relative;
+}
+
+.header-menu-container.active
+  .header-menu-list
+  .case-link
+  .header-dropdown-menu {
+  display: block;
+}
+
+.hamburger-menu {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  z-index: 0;
+  top: 1em;
+  right: 1rem;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.header-dropdown-submenu {
+  padding-left: 1rem;
+}

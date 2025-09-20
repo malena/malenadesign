@@ -1,0 +1,25 @@
+.quote-gray-box {
+  background-color: #edecec;
+  border-radius: 3.4rem;
+  padding: 2.6rem;
+  max-width: 35rem;
+  width: 100%;
+  height: fit-content;
+  border: solid 1px #ddd;
+
+  @media (min-width: 768px) {
+    min-width: 22rem;
+    width: 115%;
+  }
+}
+
+.quote-description {
+  margin: 0;
+  font-weight: var(--font-weight-normal);
+  font-size: 1.1rem;
+}
+
+.quote-title {
+  font-size: var(--font-size-sm);
+  margin-bottom: 0.3rem;
+}

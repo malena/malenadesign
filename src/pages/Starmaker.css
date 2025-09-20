@@ -1,0 +1,28 @@
+.user-profiles {
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 2rem;
+}
+
+.starmaker-cases-image {
+  width: 100%;
+}
+
+.starmaker-image {
+}
+
+.quote-gray-box.starmaker-internal-quote {
+  min-width: 100%;
+  border-radius: 0;
+  background-color: #ffe3e9;
+  border-color: #ffc9d5;
+  margin-bottom: 3rem;
+}
+
+.quote-gray-box.starmaker-internal-quote .quote-description {
+  font-weight: var(--font-weight-normal);
+}
+
+.starmaker-personas-takeaways p {
+  font-size: var(--font-size-xs);
+}
