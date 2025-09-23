@@ -9,6 +9,7 @@ import Cases from "./pages/CaseStudies";
 import Mibunker from "./pages/Mibunker";
 import UCMaximus from "./pages/UCMaximus";
 import Starmaker from "./pages/Starmaker";
+import NoMatch from "./components/NoMatch";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path="/mibunker" element={<Mibunker />} />
             <Route path="/ucmaximus" element={<UCMaximus />} />
             <Route path="/starmaker" element={<Starmaker />} />
+            <Route path="*" element={<NoMatch />} />
           </Routes>
         </BrowserRouter>
       </div>
