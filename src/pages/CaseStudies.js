@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./CaseStudies.css";
 import mibunkerLarge from "./../images/mibunkerLarge.png";
 import ucmaximusLarge from "./../images/ucmaximusLarge.png";
@@ -24,9 +25,9 @@ function CaseStudies() {
                 application development, they sought guidance in transforming
                 their concept into a functional prototype.
               </p>
-              <a className="button" href="/mibunker">
+              <Link className="button" to="/mibunker">
                 miBunker
-              </a>
+              </Link>
             </div>
             <img
               className="cases-small-image"
@@ -47,9 +48,9 @@ function CaseStudies() {
                 aesthetic of the parent website EM:RAP, which catered to
                 Emergency Medicine Physicians.
               </p>
-              <a className="button" href="/ucmaximus">
+              <Link className="button" to="/ucmaximus">
                 UC Maximus
-              </a>
+              </Link>
             </div>
             <img
               className="cases-small-image"
@@ -70,9 +71,9 @@ function CaseStudies() {
                 aesthetic of the parent website EM:RAP, which catered to
                 Emergency Medicine Physicians.
               </p>
-              <a className="button" href="/starmaker">
+              <Link className="button" to="/starmaker">
                 Starmaker
-              </a>
+              </Link>
             </div>
             <img
               className="cases-small-image"

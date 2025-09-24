@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
@@ -14,9 +14,9 @@ import NoMatch from "./components/NoMatch";
 function App() {
   return (
     <div className="app-container">
-      <Nav />
-      <div className="content-container">
-        <BrowserRouter>
+      <HashRouter>
+        <Nav />
+        <div className="content-container">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/cases" element={<Cases />} />
@@ -27,8 +27,8 @@ function App() {
             <Route path="/starmaker" element={<Starmaker />} />
             <Route path="*" element={<NoMatch />} />
           </Routes>
-        </BrowserRouter>
-      </div>
+        </div>
+      </HashRouter>
       <Footer />
     </div>
   );
