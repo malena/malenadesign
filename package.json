@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "homepage": "https://malena.design",
+=======
+  "homepage": "https://malena.github.io/malenadesign",
+>>>>>>> 42906b1a (Update routing and restyle navigation after updating html)
   "name": "malenadesign",
   "version": "0.1.0",
   "private": true,
