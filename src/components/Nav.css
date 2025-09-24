@@ -24,7 +24,6 @@
 }
 
 .header-menu-list-item {
-  display: flex;
   align-items: center;
   text-decoration: none;
   font-family: var(--font-serif);
@@ -39,6 +38,7 @@
 }
 
 .header-menu-list-item:nth-child(1) {
+  height: 1rem;
   @media (min-width: 768px) {
     min-width: 9rem;
   }
@@ -62,33 +62,10 @@
 }
 
 .header-dropdown-menu {
-  display: none;
+  padding-top: 3rem;
 }
 
-.header-dropdown-menu li {
-  margin: 0.5rem 0;
-}
-
-.case-link {
-  top: 0;
-  left: 0;
-  position: absolute;
-}
-
-.header-menu-container.not-active .header-menu-list .case-link:hover {
-  color: #fff;
-}
-
-.header-menu-container.not-active .header-menu-list .case-link:hover ul {
-  display: block;
-  position: absolute;
-  top: 0;
-  text-align: left;
-  width: 100%;
-  padding-top: 2.5rem;
-}
-
-.header-menu-container.not-active .header-menu-list .case-link:hover:before {
+.header-dropdown-menu:before {
   content: "";
   background-color: var(--color-primary);
   border-bottom-right-radius: 1.5rem;
@@ -104,18 +81,49 @@
   border-top: none;
 }
 
-.header-menu-container.not-active .header-menu-list .case-link:hover ul li a {
+.mobile-container.active .header-dropdown-menu:before {
+  content: none;
+}
+
+.mobile-container.active .header-dropdown-menu li a {
+  color: var(--color-primary);
+}
+
+.header-dropdown-menu li {
+  margin: 0.5rem 0;
+}
+
+.header-dropdown-menu li a {
   color: #fff;
 }
 
-.header-menu-container {
+.case-link {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.case-link.hovered {
+  color: #fff;
+}
+/* 
+.mobile-container.not-active .header-menu-list .case-link + ul {
+  display: block;
+  position: absolute;
+  top: 0;
+  text-align: left;
+  width: 100%;
+  padding-top: 2.5rem;
+} */
+
+.mobile-container {
   display: none;
   @media (min-width: 768px) {
     display: block;
   }
 }
 
-.header-menu-container.active {
+.mobile-container.active {
   display: block;
   position: fixed;
   right: 0;
@@ -140,20 +148,17 @@
   }
 }
 
-.header-menu-container.active .header-menu-list {
+.mobile-container.active .header-menu-list {
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-.header-menu-container.active .header-menu-list .case-link {
+.mobile-container.active .header-menu-list .case-link {
   position: relative;
 }
 
-.header-menu-container.active
-  .header-menu-list
-  .case-link
-  .header-dropdown-menu {
+.mobile-container.active .header-menu-list .case-link .header-dropdown-menu {
   display: block;
 }
 
