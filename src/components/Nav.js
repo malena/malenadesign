@@ -13,15 +13,12 @@ function Nav() {
     setIsVisible(!isVisible);
   };
 
-<<<<<<< HEAD
   const handleNavLinkClick = () => {
     if (isVisible) {
       setIsVisible(!isVisible);
     }
   };
 
-=======
->>>>>>> 42906b1a (Update routing and restyle navigation after updating html)
   const handleMouseEnter = () => {
     setShowDropdown(true);
   };
@@ -59,10 +56,7 @@ function Nav() {
               onMouseLeave={handleMouseLeave}
             >
               <Link
-<<<<<<< HEAD
                 onClick={handleNavLinkClick}
-=======
->>>>>>> 42906b1a (Update routing and restyle navigation after updating html)
                 className={`case-link ${
                   showDropdown ? "hovered" : "nothovered"
                 }`}
@@ -70,7 +64,6 @@ function Nav() {
               >
                 Case Studies
               </Link>
-<<<<<<< HEAD
               {(showDropdown || isVisible) && (
                 <ul className="header-dropdown-menu">
                   <li>
@@ -87,24 +80,11 @@ function Nav() {
                     <Link onClick={handleNavLinkClick} to="/starmaker">
                       Starmaker
                     </Link>
-=======
-              {showDropdown && (
-                <ul className="header-dropdown-menu">
-                  <li>
-                    <Link to="/mibunker">miBunker</Link>
-                  </li>
-                  <li>
-                    <Link to="/ucmaximus">UC Maximus</Link>
-                  </li>
-                  <li>
-                    <Link to="/starmaker">Starmaker</Link>
->>>>>>> 42906b1a (Update routing and restyle navigation after updating html)
                   </li>
                 </ul>
               )}
             </li>
             <li className="header-menu-list-item">
-<<<<<<< HEAD
               <Link onClick={handleNavLinkClick} to="/leadership">
                 Leadership
               </Link>
@@ -118,12 +98,6 @@ function Nav() {
               <Link onClick={handleNavLinkClick} to="/contact">
                 Contact
               </Link>
-=======
-              <Link to="/about">About</Link>
-            </li>
-            <li className="header-menu-list-item">
-              <Link to="/contact">Contact</Link>
->>>>>>> 42906b1a (Update routing and restyle navigation after updating html)
             </li>
           </ul>
         </div>

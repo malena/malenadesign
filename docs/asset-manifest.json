@@ -1,8 +1,13 @@
 {
   "files": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "main.css": "/static/css/main.1ace70f8.css",
     "main.js": "/static/js/main.bba922de.js",
+=======
+    "main.css": "/static/css/main.a0dc970b.css",
+    "main.js": "/static/js/main.c5b80b5b.js",
+>>>>>>> 060c0dc5 (Small css updates, update base url, add scrolltop)
     "static/js/787.8a2044aa.chunk.js": "/static/js/787.8a2044aa.chunk.js",
     "static/media/mibunker-survey.gif": "/static/media/mibunker-survey.53421a0324cd7d431d47.gif",
     "static/media/uc-testing.png": "/static/media/uc-testing.6b094daa38de3b0efb94.png",
@@ -20,7 +25,10 @@
     "static/media/starmaker-ui-library.png": "/static/media/starmaker-ui-library.570bd50daf2f7c8ff412.png",
     "static/media/home-interview.png": "/static/media/home-interview.e5fc28ddf8f9b40ae0f8.png",
     "static/media/mibunker-personas.png": "/static/media/mibunker-personas.05ca98881050e951f43d.png",
+<<<<<<< HEAD
     "static/media/leadership-workshops.png": "/static/media/leadership-workshops.6e7949aa07af4478c5dd.png",
+=======
+>>>>>>> 060c0dc5 (Small css updates, update base url, add scrolltop)
     "static/media/mibunker-brainstorming.png": "/static/media/mibunker-brainstorming.256b5e5fb75df13fcd64.png",
     "static/media/uc-iterations.png": "/static/media/uc-iterations.df8858dbc289523e0bfa.png",
     "static/media/starmaker.png": "/static/media/starmaker.79307181f0c3d7d9aec2.png",
@@ -29,7 +37,10 @@
     "static/media/starmaker-user-flow-benchmarking.png": "/static/media/starmaker-user-flow-benchmarking.1bf5a46ec7ae40506fca.png",
     "static/media/mibunker-wireframing.png": "/static/media/mibunker-wireframing.ec3c17c53f81c01ef9b8.png",
     "static/media/home-bridge.png": "/static/media/home-bridge.586eae272e6f8023754d.png",
+<<<<<<< HEAD
     "static/media/about-grid.svg": "/static/media/about-grid.9d3f3d40dc3257647376946f0084e55f.svg",
+=======
+>>>>>>> 060c0dc5 (Small css updates, update base url, add scrolltop)
     "static/media/home-ideas.png": "/static/media/home-ideas.e6512528350a07affffa.png",
     "static/media/home-contact.png": "/static/media/home-contact.3d4cfc1c33dc515078ea.png",
     "static/media/home-hero.png": "/static/media/home-hero.2d5ab1639d6348bee49f.png",
@@ -40,12 +51,16 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+<<<<<<< HEAD
     "static/media/video.svg": "/static/media/video.012a8d2478d1441279b9208977dceb33.svg",
+=======
+>>>>>>> 060c0dc5 (Small css updates, update base url, add scrolltop)
     "static/media/github.svg": "/static/media/github.c091268d724168a5d3fbfebc53f13299.svg",
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.b24f7d4a4ca8c937aede65a53397ed64.svg",
     "static/media/hamburger.svg": "/static/media/hamburger.d49d76d4473c518535349d1d1aad9330.svg",
     "static/media/hamburger-close.svg": "/static/media/hamburger-close.c9742456acb018959939ba6b14da91e0.svg",
+<<<<<<< HEAD
     "main.1ace70f8.css.map": "/static/css/main.1ace70f8.css.map",
     "main.bba922de.js.map": "/static/js/main.bba922de.js.map",
     "787.8a2044aa.chunk.js.map": "/static/js/787.8a2044aa.chunk.js.map"
@@ -104,5 +119,14 @@
     "static/css/main.a097d328.css",
     "static/js/main.a0080fb4.js"
 >>>>>>> 42906b1a (Update routing and restyle navigation after updating html)
+=======
+    "main.a0dc970b.css.map": "/static/css/main.a0dc970b.css.map",
+    "main.c5b80b5b.js.map": "/static/js/main.c5b80b5b.js.map",
+    "787.8a2044aa.chunk.js.map": "/static/js/787.8a2044aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0dc970b.css",
+    "static/js/main.c5b80b5b.js"
+>>>>>>> 060c0dc5 (Small css updates, update base url, add scrolltop)
   ]
 }
