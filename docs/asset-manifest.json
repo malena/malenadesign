@@ -2,12 +2,17 @@
   "files": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "main.css": "/static/css/main.1ace70f8.css",
     "main.js": "/static/js/main.bba922de.js",
 =======
     "main.css": "/static/css/main.a0dc970b.css",
     "main.js": "/static/js/main.c5b80b5b.js",
 >>>>>>> 060c0dc5 (Small css updates, update base url, add scrolltop)
+=======
+    "main.css": "/static/css/main.1011b6df.css",
+    "main.js": "/static/js/main.09103080.js",
+>>>>>>> 134decf0 (Clean up mobile menu and errors)
     "static/js/787.8a2044aa.chunk.js": "/static/js/787.8a2044aa.chunk.js",
     "static/media/mibunker-survey.gif": "/static/media/mibunker-survey.53421a0324cd7d431d47.gif",
     "static/media/uc-testing.png": "/static/media/uc-testing.6b094daa38de3b0efb94.png",
@@ -60,6 +65,7 @@
     "static/media/linkedin.svg": "/static/media/linkedin.b24f7d4a4ca8c937aede65a53397ed64.svg",
     "static/media/hamburger.svg": "/static/media/hamburger.d49d76d4473c518535349d1d1aad9330.svg",
     "static/media/hamburger-close.svg": "/static/media/hamburger-close.c9742456acb018959939ba6b14da91e0.svg",
+<<<<<<< HEAD
 <<<<<<< HEAD
     "main.1ace70f8.css.map": "/static/css/main.1ace70f8.css.map",
     "main.bba922de.js.map": "/static/js/main.bba922de.js.map",
@@ -128,5 +134,14 @@
     "static/css/main.a0dc970b.css",
     "static/js/main.c5b80b5b.js"
 >>>>>>> 060c0dc5 (Small css updates, update base url, add scrolltop)
+=======
+    "main.1011b6df.css.map": "/static/css/main.1011b6df.css.map",
+    "main.09103080.js.map": "/static/js/main.09103080.js.map",
+    "787.8a2044aa.chunk.js.map": "/static/js/787.8a2044aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1011b6df.css",
+    "static/js/main.09103080.js"
+>>>>>>> 134decf0 (Clean up mobile menu and errors)
   ]
 }
