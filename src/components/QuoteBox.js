@@ -4,7 +4,7 @@ function QuoteBox({ items }) {
   return (
     <div>
       {items.map((item) => (
-        <div className={`quote-gray-box ${item.className}`}>
+        <div key={item.id} className={`quote-gray-box ${item.className}`}>
           <div className="quote">
             {item.title && <h5 className="quote-title">{item.title}</h5>}
             {item.subtitle && (

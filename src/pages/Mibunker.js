@@ -22,17 +22,19 @@ const casesTags = [
 
 const projectBox = [
   {
+    id: 1,
     title: "ROLE",
     description: "Product Manager, Product Designer, Researcher",
   },
-  { title: "TIMELINE", description: "16 Weeks" },
-  { title: "TOOLS", description: "Figma, FigJam, Illustrator, Zoom" },
+  { id: 2, title: "TIMELINE", description: "16 Weeks" },
+  { id: 3, title: "TOOLS", description: "Figma, FigJam, Illustrator, Zoom" },
   {
+    id: 4,
     title: "TEAM",
     description:
       "Co-founder - Geotechnical Engineer, Co-founder - Public Works Engineer",
   },
-  { title: "LANGUAGE", description: "Spanish" },
+  { id: 5, title: "LANGUAGE", description: "Spanish" },
 ];
 
 const intervieweeTags = ["Introverted", "Creative", "Empath"];

@@ -13,6 +13,12 @@ function Nav() {
     setIsVisible(!isVisible);
   };
 
+  const handleNavLinkClick = () => {
+    if (isVisible) {
+      setIsVisible(!isVisible);
+    }
+  };
+
   const handleMouseEnter = () => {
     setShowDropdown(true);
   };
@@ -50,6 +56,7 @@ function Nav() {
               onMouseLeave={handleMouseLeave}
             >
               <Link
+                onClick={handleNavLinkClick}
                 className={`case-link ${
                   showDropdown ? "hovered" : "nothovered"
                 }`}
@@ -57,25 +64,35 @@ function Nav() {
               >
                 Case Studies
               </Link>
-              {showDropdown && (
+              {(showDropdown || isVisible) && (
                 <ul className="header-dropdown-menu">
                   <li>
-                    <Link to="/mibunker">miBunker</Link>
+                    <Link onClick={handleNavLinkClick} to="/mibunker">
+                      miBunker
+                    </Link>
                   </li>
                   <li>
-                    <Link to="/ucmaximus">UC Maximus</Link>
+                    <Link onClick={handleNavLinkClick} to="/ucmaximus">
+                      UC Maximus
+                    </Link>
                   </li>
                   <li>
-                    <Link to="/starmaker">Starmaker</Link>
+                    <Link onClick={handleNavLinkClick} to="/starmaker">
+                      Starmaker
+                    </Link>
                   </li>
                 </ul>
               )}
             </li>
             <li className="header-menu-list-item">
-              <Link to="/about">About</Link>
+              <Link onClick={handleNavLinkClick} to="/about">
+                About
+              </Link>
             </li>
             <li className="header-menu-list-item">
-              <Link to="/contact">Contact</Link>
+              <Link onClick={handleNavLinkClick} to="/contact">
+                Contact
+              </Link>
             </li>
           </ul>
         </div>

@@ -35,12 +35,14 @@ const keywords = [
 
 const projectBox = [
   {
+    id: 1,
     title: "ROLE",
     description: "Web Designer, Front End Developer",
   },
-  { title: "TIMELINE", description: "7 months" },
-  { title: "TOOLS", description: "Figma, Illustrator, Visual Studio" },
+  { id: 2, title: "TIMELINE", description: "7 months" },
+  { id: 3, title: "TOOLS", description: "Figma, Illustrator, Visual Studio" },
   {
+    id: 4,
     title: "TEAM",
     description: "Project Manager, Back End Developer",
   },
@@ -48,6 +50,7 @@ const projectBox = [
 
 const quoteBoxScott = [
   {
+    id: 1,
     src: sofi,
     alt: "Scott Kobner Quote",
     title: "Scott Kobner",
@@ -59,6 +62,7 @@ const quoteBoxScott = [
 
 const quoteBoxRyan = [
   {
+    id: 2,
     src: sofi,
     alt: "Ryan Moehring",
     title: "Ryan Moehring",

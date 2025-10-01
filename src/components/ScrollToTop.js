@@ -8,9 +8,9 @@ const ScrollToTop = ({ children }) => {
     window.scrollTo({
       top: 0,
       left: 0,
-      behavior: "smooth", // Optional: for a smooth scrolling animation
+      behavior: "smooth",
     });
-  }, [location.pathname]); // Re-run effect when the pathname changes
+  }, [location.pathname]);
 
   return children;
 };

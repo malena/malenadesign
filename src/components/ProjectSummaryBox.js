@@ -5,7 +5,7 @@ function ProjectSummaryBox({ items }) {
     <div className="cases-gray-box">
       <ul className="case-roles">
         {items.map((item) => (
-          <li className="cases-role">
+          <li key={item.id} className="cases-role">
             <p>
               <strong>{item.title}</strong> {item.description}
             </p>
