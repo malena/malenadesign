@@ -85,6 +85,11 @@ function Nav() {
               )}
             </li>
             <li className="header-menu-list-item">
+              <Link onClick={handleNavLinkClick} to="/leadership">
+                Leadership
+              </Link>
+            </li>
+            <li className="header-menu-list-item">
               <Link onClick={handleNavLinkClick} to="/about">
                 About
               </Link>
