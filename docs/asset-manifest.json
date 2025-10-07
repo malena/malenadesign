@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "main.css": "/static/css/main.1ace70f8.css",
     "main.js": "/static/js/main.bba922de.js",
 =======
@@ -13,6 +14,10 @@
     "main.css": "/static/css/main.1011b6df.css",
     "main.js": "/static/js/main.09103080.js",
 >>>>>>> 134decf0 (Clean up mobile menu and errors)
+=======
+    "main.css": "/static/css/main.47e5d45c.css",
+    "main.js": "/static/js/main.dbb62e81.js",
+>>>>>>> f870e35c (Add leadership section)
     "static/js/787.8a2044aa.chunk.js": "/static/js/787.8a2044aa.chunk.js",
     "static/media/mibunker-survey.gif": "/static/media/mibunker-survey.53421a0324cd7d431d47.gif",
     "static/media/uc-testing.png": "/static/media/uc-testing.6b094daa38de3b0efb94.png",
@@ -43,9 +48,13 @@
     "static/media/mibunker-wireframing.png": "/static/media/mibunker-wireframing.ec3c17c53f81c01ef9b8.png",
     "static/media/home-bridge.png": "/static/media/home-bridge.586eae272e6f8023754d.png",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "static/media/about-grid.svg": "/static/media/about-grid.9d3f3d40dc3257647376946f0084e55f.svg",
 =======
 >>>>>>> 060c0dc5 (Small css updates, update base url, add scrolltop)
+=======
+    "static/media/about-grid.svg": "/static/media/about-grid.9d3f3d40dc3257647376946f0084e55f.svg",
+>>>>>>> f870e35c (Add leadership section)
     "static/media/home-ideas.png": "/static/media/home-ideas.e6512528350a07affffa.png",
     "static/media/home-contact.png": "/static/media/home-contact.3d4cfc1c33dc515078ea.png",
     "static/media/home-hero.png": "/static/media/home-hero.2d5ab1639d6348bee49f.png",
@@ -57,14 +66,19 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "static/media/video.svg": "/static/media/video.012a8d2478d1441279b9208977dceb33.svg",
 =======
 >>>>>>> 060c0dc5 (Small css updates, update base url, add scrolltop)
+=======
+    "static/media/video.svg": "/static/media/video.012a8d2478d1441279b9208977dceb33.svg",
+>>>>>>> f870e35c (Add leadership section)
     "static/media/github.svg": "/static/media/github.c091268d724168a5d3fbfebc53f13299.svg",
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.b24f7d4a4ca8c937aede65a53397ed64.svg",
     "static/media/hamburger.svg": "/static/media/hamburger.d49d76d4473c518535349d1d1aad9330.svg",
     "static/media/hamburger-close.svg": "/static/media/hamburger-close.c9742456acb018959939ba6b14da91e0.svg",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     "main.1ace70f8.css.map": "/static/css/main.1ace70f8.css.map",
@@ -143,5 +157,14 @@
     "static/css/main.1011b6df.css",
     "static/js/main.09103080.js"
 >>>>>>> 134decf0 (Clean up mobile menu and errors)
+=======
+    "main.47e5d45c.css.map": "/static/css/main.47e5d45c.css.map",
+    "main.dbb62e81.js.map": "/static/js/main.dbb62e81.js.map",
+    "787.8a2044aa.chunk.js.map": "/static/js/787.8a2044aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47e5d45c.css",
+    "static/js/main.dbb62e81.js"
+>>>>>>> f870e35c (Add leadership section)
   ]
 }
