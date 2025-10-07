@@ -1,0 +1,30 @@
+.design {
+  padding: 4rem 1.4rem;
+  height: 100%;
+
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+.design-main-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.design-content {
+  max-width: 50rem;
+  margin: auto;
+}
+
+.video-link {
+  display: flex;
+}
+
+.video-link-social-icon {
+  padding-right: 0.5rem;
+}

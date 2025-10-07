@@ -5,6 +5,7 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Leadership from "./pages/Leadership";
 import Contact from "./pages/Contact";
 import Cases from "./pages/CaseStudies";
 import Mibunker from "./pages/Mibunker";
@@ -23,6 +24,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/cases" element={<Cases />} />
               <Route path="/about" element={<About />} />
+              <Route path="/leadership" element={<Leadership />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/mibunker" element={<Mibunker />} />
               <Route path="/ucmaximus" element={<UCMaximus />} />
