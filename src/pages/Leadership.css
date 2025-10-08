@@ -1,30 +1,31 @@
-.design {
-  padding: 4rem 1.4rem;
-  height: 100%;
-
-  @media (min-width: 768px) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
-}
-.design-main-section {
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
-}
-
 .design-content {
-  max-width: 50rem;
-  margin: auto;
+  margin-bottom: 4rem;
 }
 
-.video-link {
+.design-video-link {
   display: flex;
+  line-height: 1;
 }
 
-.video-link-social-icon {
+.design-video-link-social-icon {
   padding-right: 0.5rem;
+}
+
+.design-workshop-image {
+  width: 20rem;
+  float: left;
+  padding-right: 3rem;
+  padding-bottom: 2rem;
+}
+
+.design-title {
+  margin-bottom: 1rem;
+}
+
+.design-description {
+  margin-top: 3rem;
+}
+
+.design-video-list li {
+  margin-bottom: 0.75rem;
 }

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.47e5d45c.css",
-    "main.js": "/static/js/main.dbb62e81.js",
+    "main.css": "/static/css/main.1ace70f8.css",
+    "main.js": "/static/js/main.bba922de.js",
     "static/js/787.8a2044aa.chunk.js": "/static/js/787.8a2044aa.chunk.js",
     "static/media/mibunker-survey.gif": "/static/media/mibunker-survey.53421a0324cd7d431d47.gif",
     "static/media/uc-testing.png": "/static/media/uc-testing.6b094daa38de3b0efb94.png",
@@ -19,6 +19,7 @@
     "static/media/starmaker-ui-library.png": "/static/media/starmaker-ui-library.570bd50daf2f7c8ff412.png",
     "static/media/home-interview.png": "/static/media/home-interview.e5fc28ddf8f9b40ae0f8.png",
     "static/media/mibunker-personas.png": "/static/media/mibunker-personas.05ca98881050e951f43d.png",
+    "static/media/leadership-workshops.png": "/static/media/leadership-workshops.6e7949aa07af4478c5dd.png",
     "static/media/mibunker-brainstorming.png": "/static/media/mibunker-brainstorming.256b5e5fb75df13fcd64.png",
     "static/media/uc-iterations.png": "/static/media/uc-iterations.df8858dbc289523e0bfa.png",
     "static/media/starmaker.png": "/static/media/starmaker.79307181f0c3d7d9aec2.png",
@@ -44,12 +45,12 @@
     "static/media/linkedin.svg": "/static/media/linkedin.b24f7d4a4ca8c937aede65a53397ed64.svg",
     "static/media/hamburger.svg": "/static/media/hamburger.d49d76d4473c518535349d1d1aad9330.svg",
     "static/media/hamburger-close.svg": "/static/media/hamburger-close.c9742456acb018959939ba6b14da91e0.svg",
-    "main.47e5d45c.css.map": "/static/css/main.47e5d45c.css.map",
-    "main.dbb62e81.js.map": "/static/js/main.dbb62e81.js.map",
+    "main.1ace70f8.css.map": "/static/css/main.1ace70f8.css.map",
+    "main.bba922de.js.map": "/static/js/main.bba922de.js.map",
     "787.8a2044aa.chunk.js.map": "/static/js/787.8a2044aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47e5d45c.css",
-    "static/js/main.dbb62e81.js"
+    "static/css/main.1ace70f8.css",
+    "static/js/main.bba922de.js"
   ]
 }
