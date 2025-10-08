@@ -12,7 +12,7 @@ function Leadership() {
           </h2>
           <div className="design-description">
             <p>
-              In the past, I've enjoyed sharing new things I've learned through
+              Back in 2020, I enjoyed sharing new things I learned through
               informal presentations. While they were casual and done for fun,
               my team found them valuable and chose to record them. Below is a
               list of recordings from team meetings where I presented various
@@ -24,105 +24,14 @@ function Leadership() {
             <li>
               <a
                 className="video-link"
-                href="https://www.dropbox.com/scl/fi/msaxnq4dppxoirfepd6oc/2021-10-06-design-team-malenas-design-course-part2.mp4?rlkey=3k4bzkcz24lo62riul7jgc6u4&st=luihlefn&dl=0"
+                href="https://www.dropbox.com/scl/fi/vk9ti93ak21gf0ju1nnrf/2022-10-19.mp4?rlkey=7sj8lu0hyq9hr24sowqdorvge&dl=0"
               >
                 <img
                   className="video-link-social-icon"
                   src={video}
                   alt="checkbox"
                 />
-                Human Centered Design: How to get ideas
-              </a>
-            </li>
-            <li>
-              <a
-                className="video-link"
-                href="https://www.dropbox.com/scl/fi/tm4si2abm4wg7woxm82xa/2021-11-03.mp4?rlkey=01987vs6eg8ylvw7r3k1s4wwa&st=upxxfbeo&dl=0"
-              >
-                <img
-                  className="video-link-social-icon"
-                  src={video}
-                  alt="checkbox"
-                />
-                Human Centered Design: Rapid Prototyping
-              </a>
-            </li>
-            <li>
-              <a
-                className="video-link"
-                href="https://www.dropbox.com/scl/fi/ctdfp9j81wbb580lkzqb9/2021-12-15.mp4?rlkey=jctcfheqgkicp0b9ak8aw373f&st=t8vula2b&dl=0"
-              >
-                <img
-                  className="video-link-social-icon"
-                  src={video}
-                  alt="checkbox"
-                />
-                Human Centered Design: Design Evaluation
-              </a>
-            </li>
-            <li>
-              <a
-                className="video-link"
-                href="https://www.dropbox.com/scl/fi/1bh1uetgfr91v7julxz1s/2022-02-23.mp4?rlkey=b2yh7ourarp7i6a7cnmlkzjxq&st=tzaggymx&dl=0"
-              >
-                <img
-                  className="video-link-social-icon"
-                  src={video}
-                  alt="checkbox"
-                />
-                Human Centered Design: Design Principles
-              </a>
-            </li>
-            <li>
-              <a
-                className="video-link"
-                href="https://www.dropbox.com/scl/fi/9hdwtrtrwcw48cqnbjcwi/2022-03-09.mp4?rlkey=uu23kk38tp6zm7licuoq0gtgx&st=qranyyx1&dl=0"
-              >
-                <img
-                  className="video-link-social-icon"
-                  src={video}
-                  alt="checkbox"
-                />
-                Human Centered Design: Visual and Information Design
-              </a>
-            </li>
-            <li>
-              <a
-                className="video-link"
-                href="https://www.dropbox.com/scl/fi/17i5w3723i3w701fr2idb/2022-05-18.mp4?rlkey=rqr2e1hd8e6baiis4uuwj5qi9&st=v4i1rq13&dl=0"
-              >
-                <img
-                  className="video-link-social-icon"
-                  src={video}
-                  alt="checkbox"
-                />
-                Human Centered Design: Running Web Experiments
-              </a>
-            </li>
-            <li>
-              <a
-                className="video-link"
-                href="https://www.dropbox.com/scl/fi/urhfp7kebx2d1cjr67k3t/2022-05-20.mp4?rlkey=i2j6fth88pat5mkxcqy6124pn&st=3nwkh0yz&dl=0"
-              >
-                <img
-                  className="video-link-social-icon"
-                  src={video}
-                  alt="checkbox"
-                />
-                Human Centered Design: Designing Experiments
-              </a>
-            </li>
-            <li>
-              <a
-                className="video-link"
-                href="https://www.dropbox.com/scl/fi/lpbpr7iau2y55efdzsxr4/2022-06-15.mp4?rlkey=3f2szv8vs3l44e92ozrpllvhu&st=rhf10mrh&dl=0"
-              >
-                <img
-                  className="video-link-social-icon"
-                  src={video}
-                  alt="checkbox"
-                />
-                Human Centered Design: Comparing Rates
+                Human Centered Design: Crowd Sourcing
               </a>
             </li>
             <li>
@@ -141,14 +50,105 @@ function Leadership() {
             <li>
               <a
                 className="video-link"
-                href="https://www.dropbox.com/scl/fi/vk9ti93ak21gf0ju1nnrf/2022-10-19.mp4?rlkey=7sj8lu0hyq9hr24sowqdorvge&dl=0"
+                href="https://www.dropbox.com/scl/fi/lpbpr7iau2y55efdzsxr4/2022-06-15.mp4?rlkey=3f2szv8vs3l44e92ozrpllvhu&st=rhf10mrh&dl=0"
               >
                 <img
                   className="video-link-social-icon"
                   src={video}
                   alt="checkbox"
                 />
-                Human Centered Design: Crowd Sourcing
+                Human Centered Design: Comparing Rates
+              </a>
+            </li>
+            <li>
+              <a
+                className="video-link"
+                href="https://www.dropbox.com/scl/fi/urhfp7kebx2d1cjr67k3t/2022-05-20.mp4?rlkey=i2j6fth88pat5mkxcqy6124pn&st=3nwkh0yz&dl=0"
+              >
+                <img
+                  className="video-link-social-icon"
+                  src={video}
+                  alt="checkbox"
+                />
+                Human Centered Design: Designing Experiments
+              </a>
+            </li>
+            <li>
+              <a
+                className="video-link"
+                href="https://www.dropbox.com/scl/fi/17i5w3723i3w701fr2idb/2022-05-18.mp4?rlkey=rqr2e1hd8e6baiis4uuwj5qi9&st=v4i1rq13&dl=0"
+              >
+                <img
+                  className="video-link-social-icon"
+                  src={video}
+                  alt="checkbox"
+                />
+                Human Centered Design: Running Web Experiments
+              </a>
+            </li>
+            <li>
+              <a
+                className="video-link"
+                href="https://www.dropbox.com/scl/fi/9hdwtrtrwcw48cqnbjcwi/2022-03-09.mp4?rlkey=uu23kk38tp6zm7licuoq0gtgx&st=qranyyx1&dl=0"
+              >
+                <img
+                  className="video-link-social-icon"
+                  src={video}
+                  alt="checkbox"
+                />
+                Human Centered Design: Visual and Information Design
+              </a>
+            </li>
+            <li>
+              <a
+                className="video-link"
+                href="https://www.dropbox.com/scl/fi/1bh1uetgfr91v7julxz1s/2022-02-23.mp4?rlkey=b2yh7ourarp7i6a7cnmlkzjxq&st=tzaggymx&dl=0"
+              >
+                <img
+                  className="video-link-social-icon"
+                  src={video}
+                  alt="checkbox"
+                />
+                Human Centered Design: Design Principles
+              </a>
+            </li>
+            <li>
+              <a
+                className="video-link"
+                href="https://www.dropbox.com/scl/fi/ctdfp9j81wbb580lkzqb9/2021-12-15.mp4?rlkey=jctcfheqgkicp0b9ak8aw373f&st=t8vula2b&dl=0"
+              >
+                <img
+                  className="video-link-social-icon"
+                  src={video}
+                  alt="checkbox"
+                />
+                Human Centered Design: Design Evaluation
+              </a>
+            </li>
+            <li>
+              <a
+                className="video-link"
+                href="https://www.dropbox.com/scl/fi/tm4si2abm4wg7woxm82xa/2021-11-03.mp4?rlkey=01987vs6eg8ylvw7r3k1s4wwa&st=upxxfbeo&dl=0"
+              >
+                <img
+                  className="video-link-social-icon"
+                  src={video}
+                  alt="checkbox"
+                />
+                Human Centered Design: Rapid Prototyping
+              </a>
+            </li>
+            <li>
+              <a
+                className="video-link"
+                href="https://www.dropbox.com/scl/fi/msaxnq4dppxoirfepd6oc/2021-10-06-design-team-malenas-design-course-part2.mp4?rlkey=3k4bzkcz24lo62riul7jgc6u4&st=luihlefn&dl=0"
+              >
+                <img
+                  className="video-link-social-icon"
+                  src={video}
+                  alt="checkbox"
+                />
+                Human Centered Design: How to get ideas
               </a>
             </li>
           </ul>
