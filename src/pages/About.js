@@ -39,9 +39,12 @@ function About() {
               consultant role where I offer valuable guidance to startups.
             </p>
             <p>
-              On the side, I love helping my husband with our side project of a
-              microbrewery and hostel, managing teams, attending events, leading
-              sales and taking care of all the print and digital marketing.
+              On the side, my husband and I launched a microbrewery and hostel
+              in 2019 in Cotacachi, a small town in Ecuador. Thanks to my driven
+              nature, I've been able to continue working remotely as a
+              designer/developer while actively contributing to the growth of
+              our business—overseeing sales, marketing, and administrative
+              operations.
             </p>
           </div>
         </div>
@@ -74,11 +77,12 @@ function About() {
           </div>
           <div className="about-extra-description">
             <p>
-              I enjoy learning about culture, meeting new people and being
-              exposed to the many ways of living. I was born and rasied in
-              Toronto, but recently moved to Cotacachi, a small town in Ecuador.
-              My husband and I started a microbrewery &amp; hostel, a lifelong
-              project inspired by our love of travelling and craft beer.
+              I enjoy exploring different cultures through travel, meeting new
+              people, and discovering diverse ways of living. Born and raised in
+              Toronto, I recently co-founded a hostel and microbrewery in the
+              small town of Cotacachi, Ecuador. I split my time between both
+              places, working remotely while supporting this lifelong
+              project—driven by our shared passion for travel and craft beer.
             </p>
             <p>
               My weekly routine usually includes running with my dogs, walking
