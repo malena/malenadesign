@@ -1,13 +1,5 @@
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
   "homepage": "https://malena.design",
-=======
-  "homepage": "https://malena.github.io/malenadesign",
->>>>>>> 42906b1a (Update routing and restyle navigation after updating html)
-=======
-  "homepage": "https://malena.design",
->>>>>>> 060c0dc5 (Small css updates, update base url, add scrolltop)
   "name": "malenadesign",
   "version": "0.1.0",
   "private": true,
