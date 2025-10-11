@@ -189,7 +189,7 @@ function Leadership() {
               </li>
               <li>
                 <a href="https://docs.google.com/presentation/d/1z03_75qUzuR-ZwpMlvDWqyqH50sFd27VZU7cISolswU/edit?usp=sharing">
-                  Make your own Typograhy
+                  Make your own Typography
                 </a>
                 <p>
                   After a short presentation on typography principles, I divided
