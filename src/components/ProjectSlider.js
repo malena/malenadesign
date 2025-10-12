@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import { Link } from "react-router-dom";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./ProjectSlider.css";
@@ -28,13 +29,13 @@ function ProjectSlider({ currentSlide }) {
               A mobile app that allows professionals in the construction
               industry to connect and share resources.
             </p>
-            <a className="button" href="/mibunker">
+            <Link className="button" to="/mibunker">
               miBunker
-            </a>
+            </Link>
           </div>
-          <a className="slider-image" href="/mibunker">
+          <Link className="slider-image" to="/mibunker">
             <img src={mibunker} alt="miBunker" />
-          </a>
+          </Link>
         </div>
       </div>
       <div className="item item-2">
@@ -45,13 +46,13 @@ function ProjectSlider({ currentSlide }) {
               A branded medical education program within a subcription base
               platform.
             </p>
-            <a className="button" href="/ucmaximus">
+            <Link className="button" to="/ucmaximus">
               UC Maximus
-            </a>
+            </Link>
           </section>
-          <a className="slider-image" href="/ucmaximus">
+          <Link className="slider-image" to="/ucmaximus">
             <img className="slider-image" src={uc} alt="UC Maximus" />
-          </a>
+          </Link>
         </div>
       </div>
       <div className="item item-3">
@@ -61,13 +62,13 @@ function ProjectSlider({ currentSlide }) {
             <p>
               A web app for Canadian musicians and labels to apply for funding.
             </p>
-            <a className="button" href="/starmaker">
+            <Link className="button" to="/starmaker">
               Starmaker
-            </a>
+            </Link>
           </section>
-          <a className="slider-image" href="/starmaker">
+          <Link className="slider-image" to="/starmaker">
             <img className="slider-image" src={starmaker} alt="Starmaker" />
-          </a>
+          </Link>
         </div>
       </div>
     </Slider>

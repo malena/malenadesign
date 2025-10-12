@@ -1,22 +1,38 @@
 import "./Nav.css";
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import favicon from "./../images/logo.svg";
 import openIcon from "./../images/hamburger.svg";
 import closeIcon from "./../images/hamburger-close.svg";
 
 function Nav() {
   const [isVisible, setIsVisible] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false);
 
   const handleClick = () => {
     setIsVisible(!isVisible);
   };
 
+  const handleNavLinkClick = () => {
+    if (isVisible) {
+      setIsVisible(!isVisible);
+    }
+  };
+
+  const handleMouseEnter = () => {
+    setShowDropdown(true);
+  };
+
+  const handleMouseLeave = () => {
+    setShowDropdown(false);
+  };
+
   return (
     <nav className="header header-mobile">
       <section className="header-icon">
-        <a href="/">
+        <Link to="/">
           <img src={favicon} alt="logo" />
-        </a>
+        </Link>
       </section>
       <section className="header-menu">
         <button className="hamburger-menu" onClick={handleClick}>
@@ -29,32 +45,59 @@ function Nav() {
         <div
           className={
             isVisible
-              ? "header-menu-container active"
-              : "header-menu-container not-active"
+              ? "mobile-container active"
+              : "mobile-container not-active"
           }
         >
           <ul className="header-menu-list">
-            <li className="header-menu-list-item">
-              <a className="case-link" href="./cases">
+            <li
+              className="header-menu-list-item"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <Link
+                onClick={handleNavLinkClick}
+                className={`case-link ${
+                  showDropdown ? "hovered" : "nothovered"
+                }`}
+                to="/cases"
+              >
                 Case Studies
+              </Link>
+              {(showDropdown || isVisible) && (
                 <ul className="header-dropdown-menu">
                   <li>
-                    <a href="./mibunker">miBunker</a>
+                    <Link onClick={handleNavLinkClick} to="/mibunker">
+                      miBunker
+                    </Link>
                   </li>
                   <li>
-                    <a href="./ucmaximus">UC Maximus</a>
+                    <Link onClick={handleNavLinkClick} to="/ucmaximus">
+                      UC Maximus
+                    </Link>
                   </li>
                   <li>
-                    <a href="./starmaker">Starmaker</a>
+                    <Link onClick={handleNavLinkClick} to="/starmaker">
+                      Starmaker
+                    </Link>
                   </li>
                 </ul>
-              </a>
+              )}
             </li>
             <li className="header-menu-list-item">
-              <a href="./about">About</a>
+              <Link onClick={handleNavLinkClick} to="/leadership">
+                Leadership
+              </Link>
             </li>
             <li className="header-menu-list-item">
-              <a href="./contact">Contact</a>
+              <Link onClick={handleNavLinkClick} to="/about">
+                About
+              </Link>
+            </li>
+            <li className="header-menu-list-item">
+              <Link onClick={handleNavLinkClick} to="/contact">
+                Contact
+              </Link>
             </li>
           </ul>
         </div>

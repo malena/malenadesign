@@ -13,6 +13,7 @@ import prototype from "./../images/starmaker-prototype.png";
 
 const quoteBoxProblem = [
   {
+    id: 1,
     className: "starmaker-internal-quote",
     description:
       "I included this case study because of the complex obstacles encountered and the valuable insights gained through my time on this project. I led design efforts but the project was ultimately completed by a seperate team. - Malena Andrade",
@@ -21,6 +22,7 @@ const quoteBoxProblem = [
 
 const quoteBoxDesign = [
   {
+    id: 2,
     className: "starmaker-internal-quote",
     description:
       "Unfortunately, that flow was built around outdated UI technologies, and transitioning to modern approaches required a fundamental shift in how the experience was structured.  I failed to assert that a visual refresh alone wouldn’t solve the underlying issues. What was truly needed was a complete reimagining of the user experience.",
@@ -36,12 +38,14 @@ const casesTags = [
 
 const projectBox = [
   {
+    id: 1,
     title: "ROLE",
     description: "UI designer",
   },
-  { title: "TIMELINE", description: "5 Months" },
-  { title: "TOOLS", description: "Figma, FigJam, Zoom" },
+  { id: 2, title: "TIMELINE", description: "5 Months" },
+  { id: 3, title: "TOOLS", description: "Figma, FigJam, Zoom" },
   {
+    id: 4,
     title: "TEAM",
     description: "Back-End Developer",
   },
