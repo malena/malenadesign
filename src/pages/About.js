@@ -38,14 +38,6 @@ function About() {
               UX design, and branding, eventually transitioning into a
               consultant role where I offer valuable guidance to startups.
             </p>
-            <p>
-              On the side, my husband and I launched a microbrewery and hostel
-              in 2019 in Cotacachi, a small town in Ecuador. Thanks to my driven
-              nature, I've been able to continue working remotely as a
-              designer/developer while actively contributing to the growth of
-              our business—overseeing sales, marketing, and administrative
-              operations.
-            </p>
           </div>
         </div>
         <div className="about-buttons">
