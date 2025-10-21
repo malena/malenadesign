@@ -1,8 +1,8 @@
 import "./ProjectSummaryBox.css";
 
-function ProjectSummaryBox({ items }) {
+function ProjectSummaryBox({ className, items }) {
   return (
-    <div className="cases-gray-box">
+    <div className={`cases-gray-box ${className}`}>
       <ul className="case-roles">
         {items.map((item) => (
           <li key={item.id} className="cases-role">

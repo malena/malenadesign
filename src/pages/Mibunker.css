@@ -1,0 +1,6 @@
+.cases-gray-box.project-box-mibunker {
+  width: 200%;
+  @media (min-width: 768px) {
+    width: 400%;
+  }
+}

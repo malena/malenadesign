@@ -1,5 +1,6 @@
 import "./CaseStudies.css";
 import "./Mibunker.css";
+import QuoteBox from "../components/QuoteBox";
 import ProjectSlider from "../components/ProjectSlider";
 import Tags from "../components/Tags";
 import ProjectSummaryBox from "../components/ProjectSummaryBox";
@@ -41,6 +42,15 @@ const intervieweeTags = ["Introverted", "Creative", "Empath"];
 
 const techTags = ["iPhone", "Macbook", "Excel", "WhatsApp"];
 
+const quoteBoxProblem = [
+  {
+    id: 1,
+    className: "challenges-quote",
+    description:
+      "While it provided a functional representation of key features, further iterations and user testing would have helped refine usability, validate assumptions, and ensure alignment with industry needs. Moving forward, structured feedback sessions and targeted testing could enhance the app's development, strengthening its value proposition for both users and investors.",
+  },
+];
+
 function Mibunker() {
   return (
     <div class="cases">
@@ -62,47 +72,64 @@ function Mibunker() {
           <div className="cases-content">
             <h3 className="cases-subtitle">Overview of the project</h3>
             <p>
-              I was approached by the co-founders of this startup to assist in
-              the initiation of their project. Lacking prior experience in
-              application development, they sought guidance in transforming
-              their concept into a functional prototype.
-            </p>
-            <p>
-              With a limited timeline and budget the primary objective was to
-              assess the feasibility of their ideas, establish a budget, and
-              develop a tangible prototype that could serve as a valuable tool
-              for presenting to potential investors.{" "}
+              I was approached by the <strong>startup co-founders</strong> to
+              help kickstart their project. With{" "}
+              <strong>no prior app development experience</strong>, they needed
+              guidance turning their concept into a{" "}
+              <strong>functional prototype</strong>. Working within a{" "}
+              <strong>tight timeline and budget</strong>, the goal was to{" "}
+              <strong>assess feasibility</strong>,{" "}
+              <strong>establish costs</strong>, and deliver a{" "}
+              <strong>tangible prototype</strong> for{" "}
+              <strong>investor presentations</strong>.
             </p>
           </div>
-          <ProjectSummaryBox items={projectBox} />
+          <ProjectSummaryBox
+            className={"project-box-mibunker"}
+            items={projectBox}
+          />
         </div>
         <div className="cases-overview-container">
           <div className="cases-content">
             <h3 className="cases-subtitle">Problem</h3>
-            <p>
-              A common problem in the construction industry is managing projects
-              offline using physical documents, which often become outdated,
-              disorganized, or get lost. This makes it difficult to track
-              responsibilities and progress, especially when multiple parties
-              are involved. Additionally, most professionals rely on
-              word-of-mouth recommendations without a reliable way to verify
-              credibility. This creates challenges both for professionals
-              seeking collaborators and for property owners looking to hire
-              skilled experts.
-            </p>
+            <h4>Challenges in the Construction Industry</h4>
+            <ul className="bullet-list">
+              <li>
+                Projects are often managed offline using physical documents
+              </li>
+              <li>
+                Documents frequently become outdated, disorganized, or lost
+              </li>
+              <li>
+                Tracking responsibilities and progress is difficult—especially
+                with multiple parties involved
+              </li>
+              <li>
+                Professionals rely heavily on word-of-mouth recommendations
+              </li>
+              <li>
+                No reliable system exists to verify professional credibility
+              </li>
+              <li>
+                Creates challenges for professionals seeking collaborators
+              </li>
+              <li>Property owners struggle to find and vet skilled experts</li>
+            </ul>
           </div>
           <div className="cases-content">
             <h3 className="cases-subtitle">Solution</h3>
-            <p>
-              <strong>miBunker</strong> is a comprehensive mobile app designed
-              for professionals in the construction industry to connect,
-              collaborate, and share. Not only fostering networking and
-              partnerships among industry experts but also simplifies document
-              storage and sharing, ensuring vital project files are always
-              accessible. With tools to find and organize relevant construction
-              project information, it enhances efficiency from start to finish
-              from the palm of your hands.
-            </p>
+            <h4>miBunker Mobile App</h4>
+            <ul className="bullet-list">
+              <li>Comprehensive mobile app for construction professionals</li>
+              <li>Connect, collaborate, and share with industry experts</li>
+              <li>Fosters networking and long-term partnerships</li>
+              <li>Simplifies document storage and sharing</li>
+              <li>Ensures vital project files are always accessible</li>
+              <li>Includes tools to find and organize project information</li>
+              <li>
+                Enhances efficiency from start to finish—right from your phone
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -251,29 +278,37 @@ function Mibunker() {
             <h4 className="title-label">Surveys</h4>
             <div className="cases-flex">
               <div>
-                <p>
-                  We developed a set of questions that we would ask attendees at
-                  a construction trade show. The objective was to gather
-                  insights into their current use of tools and apps, and
-                  identify specific pain points. Attendees could also take the
-                  survey in person or later via a QR code, ensuring easy access
-                  on their phones.
-                </p>
-                <p>
-                  To engage attendees we displayed the demo on a phone, used a
-                  larger banner to promote our brand and set our booth at the
-                  entrance of the trade show.
-                </p>
-                <p>
-                  To encourage participation, we offered a raffle gift
-                  certificate as a thank-you for completing the survey. The
-                  certificate could be redeemed at a participating booth within
-                  the trade show.
-                </p>
-                <p>
-                  30 people were interviewed and there was 90% approval rate
-                  based on those who were interviewed.
-                </p>
+                <ul className="bullet-list">
+                  <li>
+                    Developed a set of questions for construction trade show
+                    attendees
+                  </li>
+                  <li>
+                    Gathered insights on current use of tools, apps, and
+                    specific pain points
+                  </li>
+                  <li>
+                    Offered survey access in person and via QR code for mobile
+                    convenience
+                  </li>
+                  <li>
+                    Displayed demo on a phone and used a large banner to promote
+                    the brand
+                  </li>
+                  <li>
+                    Positioned booth at the trade show entrance to maximize
+                    visibility
+                  </li>
+                  <li>
+                    Encouraged participation with a raffle gift certificate as a
+                    thank-you
+                  </li>
+                  <li>
+                    Certificate redeemable at a participating booth within the
+                    trade show
+                  </li>
+                  <li>Interviewed 30 attendees with a 90% approval rate</li>
+                </ul>
               </div>
               <img src={survey} alt="Survey" />
             </div>
@@ -284,34 +319,39 @@ function Mibunker() {
         <div className="case-steps-container">
           <h4 className="title-label">Step 2</h4>
           <h2 className="home-subtitle">Design</h2>
-          <div className="cases-overview-container">
-            <p className="cases-column">
-              Based on the research, I worked to define the app’s key features.
-              While the client envisioned a system for storing construction
-              project documentation, our findings revealed that users
-              prioritized simpler functionalities. Essential features included a
-              reliable way to capture and store photos with GPS locations, the
-              ability to organize them into groupings—even offline—and access to
-              high-quality industry resources. Another major pain point was
-              connecting with skilled professionals for collaboration or hiring.
-              While this did involve sharing documentation, it was less about
-              managing document types and more about seamlessly exchanging files
-              and images during construction projects. To refine the app’s
-              purpose, I collaborated closely with the client, focusing on user
-              needs and ensuring alignment with their workflows. Ultimately, we
-              identified three core features: The ability for users to create
-              projects. A streamlined way to capture, categorize, and assign
-              photos to projects. Access to essential construction-related
-              information and connections with industry professionals.
-            </p>
-          </div>
+          <p>
+            Based on user research, I helped define the app’s{" "}
+            <strong>core features</strong>. While the client initially
+            envisioned a document storage system, our findings showed users
+            prioritized <strong>photo capture with GPS</strong>,{" "}
+            <strong>offline organization</strong>, and{" "}
+            <strong>access to industry resources</strong>.
+          </p>
+          <p>
+            A major pain point was{" "}
+            <strong>connecting with skilled professionals</strong>—not just
+            managing documents, but{" "}
+            <strong>seamlessly exchanging files and images</strong> during
+            construction projects.
+          </p>
+          <p>
+            I <strong>collaborated closely with the client</strong> to align
+            features with real workflows. We ultimately focused on three
+            essentials: <strong>project creation</strong>,{" "}
+            <strong>photo capture and categorization</strong>, and{" "}
+            <strong>
+              access to construction resources and professional connections
+            </strong>
+            .
+          </p>
           <div className="case-steps-content">
             <h4 className="title-label">Brainstorming</h4>
-            <p className="cases-brainstorming">
-              I decided to use affinity mapping to structure information and
-              findings more clearly. This helped the client see hidden patterns,
-              connections and was a great way to collaborate and encourage
-              decision-making.
+            <p>
+              I used <strong>affinity mapping</strong> to structure information
+              and findings more clearly. This helped the client{" "}
+              <strong>identify hidden patterns and connections</strong>, and
+              served as a{" "}
+              <strong>collaborative tool for decision-making</strong>.
             </p>
             <img src={brainstorming} alt="Affinity Map" />
           </div>
@@ -389,19 +429,21 @@ function Mibunker() {
               simple prototype to navigate between the three main features.
             </p>
             <img src={mibunkerPrototype} alt="miBunker Prototype" />
-            <p>
-              Unfortunately, I did not have the opportunity to conduct further
-              testing. The prototype served as the final demo, acting as both a
-              tool for gathering additional feedback and a potential asset for
-              attracting investors to the project. While it provided a
-              functional representation of key features, further iterations and
-              user testing would have helped refine usability, validate
-              assumptions, and ensure alignment with industry needs. Moving
-              forward, structured feedback sessions and targeted testing could
-              enhance the app's development, strengthening its value proposition
-              for both users and investors.
-            </p>
           </div>
+        </div>
+      </section>
+      <section className="container case-steps">
+        <div className="case-steps-container">
+          <h4 className="title-label">Step 3</h4>
+          <h2 className="home-subtitle">Reflection</h2>
+          <p>
+            Unfortunately, I did not have the opportunity to conduct further
+            testing. The prototype served as the final demo, acting as both a
+            tool for gathering additional feedback and a potential asset for
+            attracting investors to the project.
+          </p>
+          <p></p>
+          <QuoteBox items={quoteBoxProblem} />
         </div>
       </section>
       <section className="container cases-project-slider">
