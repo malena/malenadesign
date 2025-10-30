@@ -14,7 +14,7 @@ import prototype from "./../images/starmaker-prototype.png";
 const quoteBoxProblem = [
   {
     id: 1,
-    className: "starmaker-internal-quote",
+    className: "challenges-quote",
     description:
       "I included this case study because of the complex obstacles encountered and the valuable insights gained through my time on this project. I led design efforts but the project was ultimately completed by a seperate team. - Malena Andrade",
   },
@@ -23,7 +23,7 @@ const quoteBoxProblem = [
 const quoteBoxDesign = [
   {
     id: 2,
-    className: "starmaker-internal-quote",
+    className: "challenges-quote",
     description:
       "Unfortunately, that flow was built around outdated UI technologies, and transitioning to modern approaches required a fundamental shift in how the experience was structured.  I failed to assert that a visual refresh alone wouldn’t solve the underlying issues. What was truly needed was a complete reimagining of the user experience.",
   },
@@ -72,21 +72,18 @@ function Starmaker() {
           <div className="cases-content">
             <h3 className="cases-subtitle">Overview of the project</h3>
             <p>
-              Canadian Starmaker Fund, a website that helps Canadian musicians
-              secure funding through a detailed application process.
-            </p>
-            <p>
-              For this particular project, I was brought in to work on a visual
-              refresh of the user interface. It was a tight timeline, with
-              limited research, and a fixed budget, all set prior to design
-              involvement.
-            </p>
-            <p>
-              Early coordination was a bit more complex due to the absence of a
-              project manager. There was some initial misalignment in
-              expectations; the client envisioned a straightforward update to
-              their existing website, while the scope ultimately evolved into a
-              full-scale redesign, including a rebuild of the code base.
+              I was brought in to lead a <strong>visual refresh</strong> for the{" "}
+              <strong>Canadian Starmaker Fund</strong>, a platform supporting
+              Canadian musicians through funding applications. The project had a{" "}
+              <strong>tight timeline</strong>, <strong>limited research</strong>
+              , and a <strong>fixed budget</strong>—all set before design began.
+              Early coordination was challenging due to the{" "}
+              <strong>absence of a project manager</strong> and a mismatch in
+              expectations; while I was hired as a <strong>UI designer</strong>,
+              the role required <strong>UX strategy and problem-solving</strong>
+              . The client initially expected a simple update, but the scope
+              evolved into a <strong>full-scale redesign</strong> and{" "}
+              <strong>code base rebuild</strong>.{" "}
             </p>
           </div>
           <ProjectSummaryBox items={projectBox} />
@@ -95,43 +92,66 @@ function Starmaker() {
         <div>
           <div className="cases-content">
             <h3 className="cases-subtitle">Problem</h3>
-            <p>
-              Applicants encountered a lengthy and cumbersome application
-              process, with requirements that only became apparent during
-              submission. The experience involved multiple steps, unreliable
-              input fields that failed to save data, and frequent loss of
-              information mid-submission—largely due to outdated back-end
-              architecture. Additionally, the website was accessible only on
-              desktop devices, excluding a significant portion of the user base
-              who primarily accessed content via mobile.
-            </p>
+            <ul className="bullet-list">
+              <li>
+                <strong>Lengthy and cumbersome application process</strong> with
+                unclear requirements until submission
+              </li>
+              <li>
+                Multiple steps and <strong>unreliable input fields</strong> that
+                failed to save user data
+              </li>
+              <li>
+                <strong>Frequent loss of information</strong> during submission
+                due to outdated back-end architecture
+              </li>
+              <li>
+                Website was <strong>desktop-only</strong>, excluding users who
+                relied on <strong>mobile access</strong>
+              </li>
+            </ul>
           </div>
           <div className="cases-content">
             <h3 className="cases-subtitle">Solution</h3>
-            <p>
-              Refactor back-end code, separating presentation logic from
-              processing and integrating a modern framework like React.js for a
-              more intuitive interface.
-            </p>
-            <p>
-              Address usability issues by implementing mobile-first responsive
-              designs, enhancing the application process with step-by-step
-              progress indicators to reduce cognitive load, and introducing
-              smart validation and auto-save functionalities to prevent errors
-              and data loss.
-            </p>
-
-            <p>
-              Focus design on establishing a clearer visual hierarchy,
-              incorporating tooltips and inline guidance to assist first-time
-              users, and applying user-centered information architecture to
-              ensure quick access to eligibility criteria, deadlines, and FAQs.
-            </p>
-            <p>
-              Complete with iterative testing and user feedback—gathered through
-              surveys and prototype reviews to refine the experience, validating
-              assumptions, and ensuring the solution aligns with user needs.
-            </p>
+            <ul className="bullet-list">
+              <li>
+                <strong>Refactored back-end code</strong> by separating
+                presentation logic from processing
+              </li>
+              <li>
+                Integrated <strong>React.js</strong> for a more intuitive and
+                modern user interface
+              </li>
+              <li>
+                Implemented <strong>mobile-first responsive design</strong> to
+                improve accessibility
+              </li>
+              <li>
+                Enhanced application flow with:
+                <ul>
+                  <li>
+                    <strong>Step-by-step progress indicators</strong> to reduce
+                    cognitive load
+                  </li>
+                  <li>
+                    <strong>Smart validation</strong> and{" "}
+                    <strong>auto-save</strong> to prevent errors and data loss
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Established a <strong>clear visual hierarchy</strong> with
+                tooltips and inline guidance for first-time users
+              </li>
+              <li>
+                Applied <strong>user-centered information architecture</strong>{" "}
+                for quick access to eligibility, deadlines, and FAQs
+              </li>
+              <li>
+                Conducted <strong>iterative testing and user feedback</strong>{" "}
+                via surveys and prototype reviews to refine the experience
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -185,12 +205,12 @@ function Starmaker() {
           <h4 className="title-label">Step 2</h4>
           <h2 className="home-subtitle">Design</h2>
           <p>
-            Me and a back-end developer ran a three-day in-person meeting with
-            the client to clarify the updates they were expecting. The goal of
-            the meeting was to walk through the current user flow and update any
-            missing or added steps or requirements. I had prepared basic
-            wireframes that could be easilty adapted, and colloboration could be
-            seamless.
+            Led a <strong>three-day in-person workshop</strong> with a back-end
+            developer and the client to clarify{" "}
+            <strong>feature expectations</strong> and walk through the{" "}
+            <strong>current user flow</strong>. I prepared{" "}
+            <strong>adaptable wireframes</strong> to streamline updates and
+            ensure <strong>seamless collaboration</strong> across teams.
           </p>
           <QuoteBox items={quoteBoxDesign} />
           <strong></strong>

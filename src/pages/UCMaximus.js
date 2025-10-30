@@ -93,59 +93,92 @@ function UCMaximus() {
           <div className="cases-content">
             <h3 className="cases-subtitle">Overview of the project</h3>
             <p>
-              Goal was to design a branded microsite for UC Maximus, a medical
-              education program tailored for Urgent Care Physicians. The
-              challenge was to ensure the design felt distinct for this audience
-              while still aligning with the playful, branded aesthetic of the
-              parent website EM:RAP, which catered to Emergency Medicine
-              Physicians.
+              Designed a <strong>branded microsite</strong> for{" "}
+              <strong>UC Maximus</strong>, a medical education program for{" "}
+              <strong>Urgent Care Physicians</strong>. The challenge: make it
+              feel <strong>distinct for this audience</strong> while staying
+              aligned with the <strong>playful aesthetic</strong> of the parent
+              site, <strong>EM:RAP</strong>.
             </p>
             <p>
-              The client was highly engaged in the process, bringing extensive
-              knowledge of the target audience and a clear vision for the
-              project including their in-house illustrator. My role was to
-              provide branding creative direction, develop compelling copy and
-              ensure a successful launch as a lead developer.
+              The client was <strong>highly engaged</strong>, bringing deep
+              audience insight and a clear creative vision—including their{" "}
+              <strong>in-house illustrator</strong>.
+            </p>
+            <p>
+              My role: provide <strong>branding creative direction</strong>,
+              craft <strong>compelling copy</strong>, and lead the{" "}
+              <strong>successful launch</strong> as{" "}
+              <strong>lead developer</strong>.
             </p>
           </div>
-          <ProjectSummaryBox items={projectBox} />
+          <ProjectSummaryBox className={"project-box-uc"} items={projectBox} />
         </div>
         <div className="cases-overview-container">
           <div className="cases-content">
             <h3 className="cases-subtitle">Problem</h3>
-            <p>
-              Medical education platforms often share a uniform, corporate
-              aesthetic. To break this mold, the client embraced a design
-              approach that is goofy, fun, yet still educational and inspiring.
-            </p>
-            <p>
-              When introducing a new educational program, they wanted it to have
-              its own distinct personality and mini universe, while staying true
-              to the playful, branded vibe of the parent website. They wanted to
-              ensure the program stood out visually while maintaining a cohesive
-              identity within the platform.
-            </p>
+            <ul className="bullet-list">
+              <li>
+                Medical education platforms often share a uniform, corporate
+                aesthetic
+              </li>
+              <li>
+                Client wanted to break the mold with a design that is{" "}
+                <strong>goofy, fun, educational, and inspiring</strong>
+              </li>
+              <li>
+                New educational program needed its own{" "}
+                <strong>distinct personality and mini universe</strong>
+              </li>
+              <li>
+                Design had to stay true to the{" "}
+                <strong>playful, branded vibe</strong> of the parent website
+              </li>
+              <li>
+                Goal: make the program <strong>stand out visually</strong> while
+                maintaining a <strong>cohesive identity</strong> within the
+                platform
+              </li>
+            </ul>
           </div>
           <div className="cases-content">
             <h3 className="cases-subtitle">Solution</h3>
-            <p>
-              Build a modern and visually striking design, using bold colors,
-              gradients and transparencies to create an immersive, space-like
-              feel while using illustrations to align with the brand's
-              aesthetic, maintaining consistency and visual appeal. Ensuring a
-              sub-menu design to set it apart from the main header without
-              creating a stacked effect, to ensure a seamless navigation
-              experience.
-            </p>
-            <p>
-              Structuring the layout in a clear way to highlight main sections
-              including podcasts, video courses, conferences, and clinical
-              reference tools, using strong call-to-action buttons like "Join
-              Community Now" and "Subscribe Now" to ensure easy engagement.
-              Highlighting expert faculty profiles to reinforce credibility.
-              Overall effectively balancing aesthetics with functionality,
-              inviting users to explore and connect.
-            </p>
+            <ul className="bullet-list">
+              <li>
+                Built a <strong>modern and visually striking design</strong>{" "}
+                using bold colors, gradients, and transparencies
+              </li>
+              <li>
+                Created an <strong>immersive, space-like feel</strong> with
+                illustrations aligned to the brand’s aesthetic
+              </li>
+              <li>
+                Designed a <strong>distinct sub-menu</strong> to separate
+                navigation from the main header and avoid stacking
+              </li>
+              <li>
+                Structured layout to highlight key sections:
+                <ul>
+                  <li>Podcasts</li>
+                  <li>Video courses</li>
+                  <li>Conferences</li>
+                  <li>Clinical reference tools</li>
+                </ul>
+              </li>
+              <li>
+                Used strong call-to-action buttons like{" "}
+                <strong>"Join Community Now"</strong> and{" "}
+                <strong>"Subscribe Now"</strong> for easy engagement
+              </li>
+              <li>
+                Highlighted <strong>expert faculty profiles</strong> to
+                reinforce credibility
+              </li>
+              <li>
+                Balanced <strong>aesthetics with functionality</strong> to
+                invite exploration and connection
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -154,36 +187,48 @@ function UCMaximus() {
           <h4 className="title-label">Step 1</h4>
           <h2 className="home-subtitle">Research</h2>
           <p>
-            I held several meetings with the client, including the Chief
-            Technology Officer, Chief Executive Officer (a Medical Professor and
-            EM Physician), and the Chief Product Officer (an EM Physician).
-            Their medical expertise provided valuable insight into the specific
-            audience they aimed to reach with this new program. Urgent Care
-            Physicians occupy a distinct space within hospitals, and the
-            microsite needed to reflect that uniqueness in both design and
-            messaging.
+            Held strategic meetings with the{" "}
+            <strong>Chief Technology Officer</strong>,{" "}
+            <strong>Chief Executive Officer</strong> (Medical Professor & EM
+            Physician), and <strong>Chief Product Officer</strong> (EM
+            Physician). Their <strong>medical expertise</strong> offered
+            valuable insight into the <strong>target audience</strong>:{" "}
+            <strong>Urgent Care Physicians</strong>, who occupy a{" "}
+            <strong>distinct role within hospitals</strong>. The microsite
+            needed to reflect that{" "}
+            <strong>uniqueness in both design and messaging</strong>.
           </p>
           <div className="case-steps-content">
             <h4>Target Audience</h4>
             <div className="cases-flex cases-target-audience">
               <div>
-                <p>
-                  I needed to gain a clear understanding of Urgent Care
-                  Physicians and how they differ from Emergency Physicians.
-                </p>
-                <p>
-                  During meetings, we explored these distinctions in depth, and
-                  I carefully noted each perspective. It was essential to grasp
-                  the unique insights and opinions of everyone involved to
-                  ensure an accurate and effective approach.{" "}
-                </p>
-                <p className="float">
-                  With my own research I gained insight into the the urgent care
-                  market which had been growing, with an estimated 8,000 to
-                  10,000 centers across the US. This growth was partly due to a
-                  shortage of primary care physicians and a need for convenient
-                  access to healthcare. 
-                </p>
+                <ul className="bullet-list">
+                  <li>
+                    Focused on understanding{" "}
+                    <strong>Urgent Care Physicians</strong> and how they differ
+                    from <strong>Emergency Physicians</strong>
+                  </li>
+                  <li>
+                    Held meetings to explore these distinctions and{" "}
+                    <strong>gather diverse perspectives</strong>
+                  </li>
+                  <li>
+                    Prioritized <strong>unique insights and opinions</strong> to
+                    guide design and messaging
+                  </li>
+                  <li>
+                    Conducted independent research on the{" "}
+                    <strong>growing urgent care market</strong>
+                  </li>
+                  <li>
+                    Found an estimated <strong>8,000 to 10,000 centers</strong>{" "}
+                    across the U.S.
+                  </li>
+                  <li>
+                    Growth driven by <strong>primary care shortages</strong> and
+                    demand for <strong>convenient healthcare access</strong>
+                  </li>
+                </ul>
               </div>
               <QuoteBox items={quoteBoxScott} />
             </div>
@@ -244,22 +289,22 @@ function UCMaximus() {
           <h4 className="title-label">Step 2</h4>
           <h2 className="home-subtitle">Design</h2>
           <div className="cases-overview-container">
-            <p className="cases-column">
-              I wanted to convey the message of professional growth,
-              collaboration, and accessibility in the field of urgent care
-              education. A stylized illustration of a doctor's face wearing
-              glasses and a mask for a more serious tone, set against a cosmic
-              background with stars added depth and the interconnected icons
-              suggest an evolving, interconnected community where healthcare
-              professionals can continuously expand their knowledge. The colors
-              I chose—teal and violet—help establish a tone of trust,
-              innovation, and expertise, differentiating urgent care from the
-              more intense emergency medicine themes of reds and oranges. My
-              goal was to create a hero design that represented urgent care
-              education as dynamic, supportive, and forward-thinking, appealing
-              to healthcare providers looking to enhance their skills while
-              staying connected with peers, aspects that would help increase
-              subscriptions to the new program UX Maximus.
+            <p>
+              Designed a hero image to convey{" "}
+              <strong>
+                professional growth, collaboration, and accessibility
+              </strong>{" "}
+              in urgent care education. Used a{" "}
+              <strong>stylized doctor illustration</strong> with a serious tone,
+              set against a <strong>cosmic background</strong> to suggest an{" "}
+              <strong>evolving, connected community</strong>. Chose{" "}
+              <strong>teal and violet</strong> to evoke{" "}
+              <strong>trust, innovation, and expertise</strong>, setting urgent
+              care apart from the intense reds of emergency medicine. The goal
+              was a{" "}
+              <strong>dynamic, supportive, and forward-thinking design</strong>{" "}
+              that appeals to healthcare providers and supports{" "}
+              <strong>UX Maximus subscriptions</strong>.
             </p>
           </div>
           <div className="case-steps-content">

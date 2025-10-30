@@ -210,3 +210,23 @@ img.interview-profile {
   padding-left: 0.5rem;
   font-size: var(--font-size-xxs);
 }
+
+.quote-gray-box.challenges-quote {
+  min-width: 100%;
+  border-radius: 0;
+  background-color: #ffe3e9;
+  border-color: #ffc9d5;
+  margin-bottom: 3rem;
+}
+
+.quote-gray-box.challenges-quote .quote-description {
+  font-weight: var(--font-weight-normal);
+}
+
+.cases-content .bullet-list {
+  margin-bottom: 1rem;
+}
+
+.cases-content .bullet-list li {
+  font-size: var(--font-size-sm);
+}

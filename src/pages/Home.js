@@ -15,67 +15,76 @@ function Home() {
             <h3 className="title-label">HI. I'M A</h3>
             <h1 className="home-title">UX Designer.</h1>
             <p className="home-description">
-              From my roots in Front-End Development to serving on the board of
-              a software agency and working as a consultant, I've always been
-              passionate about building software products.
+              From my roots in <strong>Front-End Development</strong> to serving
+              on the <strong>board of a software agency</strong> and working as
+              a <strong>consultant</strong>, I’ve consistently pursued my
+              passion for <strong>building software products</strong> that are
+              thoughtful, scalable, and user-centered.
             </p>
           </div>
           <img className="bringing-ideas" src={hero} alt="logo" />
         </div>
       </section>
       <section className="container home-container">
-        <h4>What do I do?</h4>
+        <h4>What I Do</h4>
         <h2 className="home-subtitle">
           <strong>BRINGING IDEAS TO LIFE</strong>
           through thoughtful design.
         </h2>
         <div className="content-image-container">
           <p>
-            Through deep exploration, I collaborate with clients to understand
-            their vision and align design with their business goals. By
-            researching users and identifying pain points, I translate concepts
-            into wireframes that solve core challenges and drive strategic
-            objectives. My consulting helps startups integrate design with
-            business strategy for lasting impact.
+            I collaborate with clients through <strong>deep exploration</strong>{" "}
+            to align <strong>design with business goals</strong>. By{" "}
+            <strong>researching users</strong> and identifying{" "}
+            <strong>pain points</strong>, I translate ideas into{" "}
+            <strong>wireframes</strong> that solve core challenges and support{" "}
+            <strong>strategic objectives</strong>. My consulting helps{" "}
+            <strong>startups integrate design with business strategy</strong>{" "}
+            for <strong>lasting impact</strong>.
           </p>
           <img className="bringing-ideas" src={interview} alt="logo" />
         </div>
       </section>
       <section className="container home-container">
-        <h4>How do I work?</h4>
+        <h4>How I Work</h4>
         <h2 className="home-subtitle">
-          <strong>FOLLOWING A STRUCTURED</strong>
-          user-centered approach to design.
+          <strong>A STRUCTURED</strong>
+          user-centered design approach.
         </h2>
         <div className="content-image-container">
           <p>
-            I transform ideas into intuitive interfaces and scalable systems,
-            integrating reusable UI patterns for efficiency. Through close
-            collaboration with developers, I ensure seamless integration while
-            continuously refining solutions to enhance usability. From research
-            and wireframes to prototypes and design systems, I create user
-            experiences that strike the perfect balance between aesthetics and
-            functionality.
+            I transform ideas into <strong>intuitive interfaces</strong> and{" "}
+            <strong>scalable systems</strong>, integrating{" "}
+            <strong>reusable UI patterns</strong> for efficiency. Through close{" "}
+            <strong>collaboration with developers</strong>, I ensure{" "}
+            <strong>seamless integration</strong> and continuously refine
+            solutions to enhance <strong>usability</strong>. From{" "}
+            <strong>research and wireframes</strong> to{" "}
+            <strong>prototypes and design systems</strong>, I craft user
+            experiences that balance{" "}
+            <strong>aesthetics and functionality</strong>.
           </p>
           <img className="bringing-ideas" src={ideas} alt="logo" />
         </div>
       </section>
       <section className="container home-container">
-        <h4>What is my strength?</h4>
+        <h4>My Strength</h4>
         <h2 className="home-subtitle">
           <strong>BRIDGING BOTH WORLDS</strong>
           of development and design.
         </h2>
         <div className="content-image-container">
           <p>
-            With over a decade of experience in web development, I've been
-            deeply involved in projects from inception to completion—some
-            successful, others less so. I have led development teams,
-            facilitated design sprints, and managed timelines and budgets. My
-            experience spans small and large teams, agencies, and startups. As a
-            board member, I've gained a broad perspective that now informs my
-            ability to deliver cohesive, strategic solutions. I thrive on seeing
-            the bigger picture and love helping businesses succeed.
+            With over a decade in <strong>web development</strong>, I’ve led
+            projects from <strong>inception to completion</strong>—across
+            startups, agencies, and large teams. I’ve{" "}
+            <strong>led development teams</strong>, facilitated{" "}
+            <strong>design sprints</strong>, and managed{" "}
+            <strong>timelines and budgets</strong>. Serving as a{" "}
+            <strong>board member</strong> has given me a{" "}
+            <strong>strategic, big-picture perspective</strong> that informs how
+            I deliver <strong>cohesive, impactful solutions</strong>. I thrive
+            on helping <strong>businesses succeed</strong>.
           </p>
           <img className="bringing-ideas" src={bridge} alt="logo" />
         </div>

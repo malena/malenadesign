@@ -149,7 +149,7 @@ p {
 }
 
 strong {
-  font-weight: var(--font-weight-bold);
+  font-weight: 500;
 }
 
 a {
@@ -367,7 +367,7 @@ a.link-text {
 }
 
 .bullet-list {
-  margin-left: 1rem;
+  margin-left: 0rem;
 }
 
 .bullet-list li {

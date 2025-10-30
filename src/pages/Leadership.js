@@ -18,14 +18,18 @@ function Leadership() {
             alt="checkbox"
           />
           <p>
-            Throughout my career, I’ve blended my social nature with workplace
-            culture—bringing energy, curiosity, and connection into everything I
-            do. I love learning, sharing, and creating fun, engaging experiences
-            with others. Outside of work, I’ve actively participated in meetups,
-            online courses, and virtual events. These passions have led me to
-            organize workshops, host hackathons, and take the lead on
-            initiatives that foster creativity, inclusivity, and a strong sense
-            of community at work.
+            I bring <strong>energy, curiosity, and connection</strong> into
+            every team I join, blending my <strong>social nature</strong> with
+            workplace culture. I thrive on{" "}
+            <strong>
+              learning, sharing, and creating engaging experiences
+            </strong>{" "}
+            with others. Outside of work, I’ve actively participated in{" "}
+            <strong>meetups, online courses, and virtual events</strong>. These
+            passions have led me to <strong>organize workshops</strong>,{" "}
+            <strong>host hackathons</strong>, and{" "}
+            <strong>lead initiatives</strong> that foster{" "}
+            <strong>creativity, inclusivity, and community</strong>.
           </p>
         </div>
       </header>
