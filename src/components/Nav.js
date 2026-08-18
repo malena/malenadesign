@@ -50,43 +50,9 @@ function Nav() {
           }
         >
           <ul className="header-menu-list">
-            <li
-              className="header-menu-list-item"
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-            >
-              <Link
-                onClick={handleNavLinkClick}
-                className={`case-link ${
-                  showDropdown ? "hovered" : "nothovered"
-                }`}
-                to="/cases"
-              >
-                Case Studies
-              </Link>
-              {(showDropdown || isVisible) && (
-                <ul className="header-dropdown-menu">
-                  <li>
-                    <Link onClick={handleNavLinkClick} to="/mibunker">
-                      miBunker
-                    </Link>
-                  </li>
-                  <li>
-                    <Link onClick={handleNavLinkClick} to="/ucmaximus">
-                      UC Maximus
-                    </Link>
-                  </li>
-                  <li>
-                    <Link onClick={handleNavLinkClick} to="/starmaker">
-                      Starmaker
-                    </Link>
-                  </li>
-                </ul>
-              )}
-            </li>
             <li className="header-menu-list-item">
-              <Link onClick={handleNavLinkClick} to="/leadership">
-                Leadership
+              <Link onClick={handleNavLinkClick} to="/projects">
+                Projects
               </Link>
             </li>
             <li className="header-menu-list-item">

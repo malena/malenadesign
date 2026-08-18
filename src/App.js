@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Leadership from "./pages/Leadership";
 import Contact from "./pages/Contact";
 import Cases from "./pages/CaseStudies";
+import Projects from "./pages/Projects";
 import Mibunker from "./pages/Mibunker";
 import UCMaximus from "./pages/UCMaximus";
 import Starmaker from "./pages/Starmaker";
@@ -23,6 +24,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/cases" element={<Cases />} />
+              <Route path="/projects" element={<Projects />} />
               <Route path="/about" element={<About />} />
               <Route path="/leadership" element={<Leadership />} />
               <Route path="/contact" element={<Contact />} />

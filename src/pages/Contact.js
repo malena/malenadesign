@@ -11,12 +11,12 @@ function Contact() {
             <h4 className="title-label">Contact Me</h4>
             <h2 className="home-subtitle">
               <strong>LET'S WORK TOGETHER</strong>
-              and build an awesome digital product!
+              and build something awesome!
             </h2>
             <p>
-              I am currently available and eager to find a challenging project
+              I am currently studying part-time, but eager to find a challenging project
               to work on. Email me with your ideas or connect with me via
-              LinkedIn. I am looking forward to working with you!
+              LinkedIn to see if we can work something out!
             </p>
           </div>
           <img className="bringing-ideas" src={contact} alt="logo" />

@@ -5,6 +5,7 @@
 .design-video-link {
   display: flex;
   line-height: 1;
+  align-items: center;
 }
 
 .design-video-link-social-icon {

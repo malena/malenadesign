@@ -37,14 +37,14 @@
   }
 }
 
-.header-menu-list-item:nth-child(1) {
+/* .header-menu-list-item:nth-child(1) {
   height: auto;
   @media (min-width: 768px) {
     height: 1rem;
     min-width: 9rem;
   }
 }
-
+ */
 .header-icon {
   flex-grow: 1;
   position: relative;
