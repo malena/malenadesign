@@ -6,6 +6,11 @@
   }
 }
 
+.projects-container {
+  margin: 3rem auto;
+}
+
+
 .project-container {
   padding: 1rem 0 3rem 0;
   display: flex;
@@ -15,4 +20,12 @@
   @media (min-width: 768px) {
     flex-direction: row;
   }
+}
+
+.project-container:last-child {
+  padding: 0;
+}
+
+.projects-design-content {
+  margin-bottom: 4rem;
 }

@@ -4,18 +4,14 @@ import "./Projects.css";
 import mibunkerLarge from "./../images/mibunkerLarge.png";
 import ucmaximusLarge from "./../images/ucmaximusLarge.png";
 import starmaker from "./../images/starmaker.png";
-import "./Leadership.css";
 import video from "./../images/video.svg";
 import designWorkshops from "./../images/leadership-workshops.png";
 
 function Projects() {
   return (
     <div class="projects-container">
-      <header className="container projects-container-header">
-        <h4 className="title-label">Projects</h4>
-      </header>
       <section className="container">
-        <div className="design-content">
+        <div className="projects-design-content">
           <h2 className="home-subtitle">
           <strong>CASE STUDIES</strong>
         </h2>
@@ -76,7 +72,7 @@ function Projects() {
             />
           </div>
         </div>
-        <div className="design-content">
+        <div className="projects-design-content">
           <h2 className="home-subtitle">
           <strong>DESIGN PRESENTATIONS</strong>
         </h2>
@@ -221,7 +217,7 @@ function Projects() {
             </li>
           </ul>
         </div>
-        <div className="design-content">
+        <div className="projects-design-content">
             <h2 className="home-subtitle">
           <strong>WORKSHOPS & HACKATHONS</strong>
         </h2>
@@ -291,7 +287,7 @@ function Projects() {
             </ul>
           </div>
         </div>
-        <div className="design-content">
+        <div className="projects-design-content">
           <h2 className="home-subtitle">
           <strong>SHORT ARTICLES</strong>
         </h2>
