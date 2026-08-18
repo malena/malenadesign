@@ -5,7 +5,6 @@ import mibunkerLarge from "./../images/mibunkerLarge.png";
 import ucmaximusLarge from "./../images/ucmaximusLarge.png";
 import starmaker from "./../images/starmaker.png";
 import video from "./../images/video.svg";
-import designWorkshops from "./../images/leadership-workshops.png";
 
 function Projects() {
   return (
