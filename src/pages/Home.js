@@ -15,11 +15,7 @@ function Home() {
             <h3 className="title-label">HI. I'M A</h3>
             <h1 className="home-title">UX Designer.</h1>
             <p className="home-description">
-              From my roots in <strong>Front-End Development</strong> to serving
-              on the <strong>board of a software agency</strong> and working as
-              a <strong>consultant</strong>, I’ve consistently pursued my
-              passion for <strong>building software products</strong> that are
-              thoughtful, scalable, and user-centered.
+              I am currently updating my portfolio and taking a Masters Program at LABASAD in Creative Direction with a specialization in AI.
             </p>
           </div>
           <img className="bringing-ideas" src={hero} alt="logo" />
@@ -33,14 +29,7 @@ function Home() {
         </h2>
         <div className="content-image-container">
           <p>
-            I collaborate with clients through <strong>deep exploration</strong>{" "}
-            to align <strong>design with business goals</strong>. By{" "}
-            <strong>researching users</strong> and identifying{" "}
-            <strong>pain points</strong>, I translate ideas into{" "}
-            <strong>wireframes</strong> that solve core challenges and support{" "}
-            <strong>strategic objectives</strong>. My consulting helps{" "}
-            <strong>startups integrate design with business strategy</strong>{" "}
-            for <strong>lasting impact</strong>.
+           I collaborate with clients through deep exploration to align design with business goals. By researching users and identifying pain points, I translate ideas into wireframes that solve core challenges and support strategic objectives. My consulting helps startups integrate design with business strategy for lasting impact.
           </p>
           <img className="bringing-ideas" src={interview} alt="logo" />
         </div>

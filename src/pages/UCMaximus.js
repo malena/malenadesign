@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./CaseStudies.css";
 import "./UCMaximus.css";
 import ProjectSlider from "../components/ProjectSlider";
@@ -75,6 +76,13 @@ const quoteBoxRyan = [
 function UCMaximus() {
   return (
     <div class="cases">
+      <header className="container projects-container-header">
+        <h4 className="title-label">
+          <Link to="/projects">
+            Projects
+          </Link>
+        </h4>
+      </header>
       <section className="container cases-header">
         <h2 className="cases-title">UC Maximus</h2>
         <div className="cases-image-container">

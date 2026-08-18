@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./CaseStudies.css";
 import "./Starmaker.css";
 import QuoteBox from "../components/QuoteBox";
@@ -54,6 +55,13 @@ const projectBox = [
 function Starmaker() {
   return (
     <div className="cases">
+      <header className="container projects-container-header">
+        <h4 className="title-label">
+          <Link to="/projects">
+            Projects
+          </Link>
+        </h4>
+      </header>
       <section className="container cases-header">
         <h2 className="cases-title">Starmaker</h2>
         <div className="cases-image-container">

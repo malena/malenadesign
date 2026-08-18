@@ -17,34 +17,20 @@ function About() {
               alt="logo"
             />
             <div className="about-profile-title">
-              <h4 className="title-label">Who is Malena professionally?</h4>
+              <h4 className="title-label">I AM</h4>
               <h2 className="home-subtitle">
                 <strong>PASSIONATE</strong>
-                about design and business strategy.
+                about continuous learning.
               </h2>
+            <p><strong>Currently I am taking a Masters Program at LABASAD in Creative Direction with a specialization in AI.</strong></p>
             </div>
           </div>
           <div className="about-profile-description">
             <p>
-              During my career as a{" "}
-              <strong>Front End Developer and Designer</strong>, I've{" "}
-              <strong>led multiple projects</strong>, working directly with{" "}
-              <strong>clients and project managers</strong>,{" "}
-              <strong>mentoring junior developers</strong>, while{" "}
-              <strong>documenting</strong>,{" "}
-              <strong>estimating timelines</strong>, and{" "}
-              <strong>keeping within budget</strong>.
+              My career has spanned across roles as a Front End Developer, UX Designer, Team Lead and Board Member. Working on multiple projects directly with CEO's, managers, developers and designers.
             </p>
-
             <p>
-              I was <strong>elected as board member</strong> at a software
-              agency and <strong>served for 5 years</strong>, where I gained
-              insight into the{" "}
-              <strong>business aspect of software projects</strong>. During this
-              time, I{" "}
-              <strong>expanded my expertise into UX design and branding</strong>
-              , eventually <strong>transitioning into a consultant role</strong>{" "}
-              where I offer <strong>valuable guidance to startups</strong>.
+              Over the years I have gained insight into the development, design and business aspect of software projects. Today I aspire to delve into the role of Creative Director and turn good products into successful brands.
             </p>
           </div>
         </div>
