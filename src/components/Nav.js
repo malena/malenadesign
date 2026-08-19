@@ -7,7 +7,6 @@ import closeIcon from "./../images/hamburger-close.svg";
 
 function Nav() {
   const [isVisible, setIsVisible] = useState(false);
-  const [showDropdown, setShowDropdown] = useState(false);
 
   const handleClick = () => {
     setIsVisible(!isVisible);
@@ -17,14 +16,6 @@ function Nav() {
     if (isVisible) {
       setIsVisible(!isVisible);
     }
-  };
-
-  const handleMouseEnter = () => {
-    setShowDropdown(true);
-  };
-
-  const handleMouseLeave = () => {
-    setShowDropdown(false);
   };
 
   return (
