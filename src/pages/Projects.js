@@ -7,25 +7,67 @@ import starmaker from "./../images/starmaker.png";
 import video from "./../images/video.svg";
 
 function Projects() {
+  const scrollTo = (id) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div class="projects-container">
       <section className="container">
-        <div className="projects-design-content">
+        <div className="about-profile-title">
+          <h4 className="title-label">My Projects</h4>
           <h2 className="home-subtitle">
-          <strong>CASE STUDIES</strong>
-        </h2>
+            <strong>SHOWCASING</strong>
+            the work I have done in over a decade!
+          </h2>
+          <p>
+            From conceptualizing ideas to bringing them to life, I've had the
+            privilege of working on a diverse range of projects that have shaped
+            my career and perspective.{" "}
+            <i>
+              <strong>
+                A little outdated, but this section will be updated soon with my
+                latest projects!
+              </strong>
+            </i>
+          </p>
+        </div>
+        <nav className="projects-menu">
+          <button className="button-sm" onClick={() => scrollTo("caseStudies")}>
+            Case Studies
+          </button>
+          <button className="button-sm" onClick={() => scrollTo("hackathons")}>
+            Hackathons
+          </button>
+          <button className="button-sm" onClick={() => scrollTo("workshops")}>
+            Team Workshops
+          </button>
+          <button
+            className="button-sm"
+            onClick={() => scrollTo("presentations")}
+          >
+            Presentations
+          </button>
+          <button
+            className="button-sm"
+            onClick={() => scrollTo("short-articles")}
+          >
+            Short Articles
+          </button>
+        </nav>
+        <div className="projects-design-content">
+          <h4 id="caseStudies" style={{ scrollMarginTop: "130px" }}>
+            Case Studies
+          </h4>
           <div className="project-container">
             <div>
-              <h3>miBunker</h3>
+              <Link to="/mibunker">miBunker</Link>
               <p>
                 I was approached by the co-founders of this startup to assist in
                 the initiation of their project. Lacking prior experience in
                 application development, they sought guidance in transforming
                 their concept from branding into a functional prototype.
               </p>
-              <Link className="button" to="/mibunker">
-                miBunker
-              </Link>
             </div>
             <img
               className="cases-small-image"
@@ -35,18 +77,14 @@ function Projects() {
           </div>
           <div className="project-container">
             <div>
-              <h3>UC Maximus</h3>
+              <Link to="/ucmaximus">UC Maximus</Link>
               <p>
-                Design a branded microsite for UC Maximus, a medical
-                education program tailored for Urgent Care Physicians. The
-                challenge was to ensure the design felt distinct for this
-                audience while still aligning with the playful, branded
-                aesthetic of the parent website EM:RAP, which catered to
-                Emergency Medicine Physicians.
+                Design a branded microsite for UC Maximus, a medical education
+                program tailored for Urgent Care Physicians. The challenge was
+                to ensure the design felt distinct for this audience while still
+                aligning with the playful, branded aesthetic of the parent
+                website EM:RAP, which catered to Emergency Medicine Physicians.
               </p>
-              <Link className="button" to="/ucmaximus">
-                UC Maximus
-              </Link>
             </div>
             <img
               className="cases-small-image"
@@ -56,13 +94,14 @@ function Projects() {
           </div>
           <div className="project-container">
             <div>
-              <h3>Starmaker</h3>
+              <Link to="/starmaker">Starmaker</Link>
               <p>
-                I was brought in as a UI designer to lead a visual refresh for the platform. While the focus was on enhancing the user interface and experience through a series of strategic design improvements the scope blew up into a full-scale redesign and code base rebuild. 
+                I was brought in as a UI designer to lead a visual refresh for
+                the platform. While the focus was on enhancing the user
+                interface and experience through a series of strategic design
+                improvements the scope blew up into a full-scale redesign and
+                code base rebuild.
               </p>
-              <Link className="button" to="/starmaker">
-                Starmaker
-              </Link>
             </div>
             <img
               className="cases-small-image"
@@ -71,17 +110,101 @@ function Projects() {
             />
           </div>
         </div>
+
         <div className="projects-design-content">
-          <h2 className="home-subtitle">
-          <strong>DESIGN PRESENTATIONS</strong>
-        </h2>
+          <h4 id="hackathons" style={{ scrollMarginTop: "130px" }}>
+            Hackathons
+          </h4>
+          <div className="design-hackathons">
+            <ul>
+              <li>
+                <a href="https://github.com/malena/retreat-hackathon">
+                  Covid Killer Hackathon Code
+                </a>
+                <p>
+                  In 2020, during the height of the pandemic, I organized a team
+                  retreat hackathon for our development and design teams. The
+                  challenge was to create a game where floating COVID cells
+                  could be "sprayed" and eliminated using the mouse—an engaging
+                  way to combine creativity and stress relief.
+                </p>
+              </li>
+              <li>
+                <a href="https://github.com/silverorange/retreat-hackathon-2022">
+                  Timezone Hackathon Code
+                </a>
+                <p>
+                  In this hackathon, participants were instructed to build a
+                  simple web page that displayed all employee time zones, making
+                  it easier to coordinate meetings across distributed teams.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="projects-design-content">
+          <h4 id="workshops" style={{ scrollMarginTop: "130px" }}>
+            Team Workshops
+          </h4>
+          <div className="design-hackathons">
+            <ul>
+              <li>
+                <a href="https://docs.google.com/presentation/d/1z03_75qUzuR-ZwpMlvDWqyqH50sFd27VZU7cISolswU/edit?usp=sharing">
+                  Make your own Typography
+                </a>
+                <p>
+                  After a short presentation on typography principles, I divided
+                  the team into groups and challenged them to create their own
+                  fonts using objects found around their homes—blending design
+                  fundamentals with hands-on creativity.
+                </p>
+              </li>
+              <li>
+                <a href="https://docs.google.com/presentation/d/1TeK-QxsfUCn6npPqA9WIyVf_gwfUvFxNMcU_3A5S0sg/edit?usp=sharing">
+                  What is Creativity?
+                </a>
+                <p>
+                  This design exercise explored how creativity works in design,
+                  using methods like conceptual blending to spark new ideas. The
+                  activity included drawing an alien to encourage imaginative
+                  thinking.
+                </p>
+              </li>
+              <li>
+                <a href="https://docs.google.com/presentation/d/11VcGiR5PVdPBuFjbShjzwLdVXiWIGKQKBDU3cZr1IXk/edit?usp=sharing">
+                  Storyboarding
+                </a>
+                <p>
+                  A collaborative design challenge where teams worked to solve
+                  the problem: How can blind individuals know when they've been
+                  in the sun too long? The goal was to invent a method that
+                  helps reduce the risk of sunburn and skin cancer through
+                  thoughtful, inclusive design.
+                </p>
+              </li>
+              <li>
+                <a href="https://docs.google.com/presentation/d/1ASj5oXj6gK1QMGUuh4AlkSePKqeQ2l37Y_d4Can21Cg/edit?slide=id.p#slide=id.p">
+                  Timezone Hackathon
+                </a>{" "}
+                <p>
+                  In this hackathon, participants were instructed to build a
+                  simple web page that displayed all employee time zones, making
+                  it easier to coordinate meetings across distributed teams.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="projects-design-content">
+          <h4 id="presentations" style={{ scrollMarginTop: "130px" }}>
+            Design Presentations
+          </h4>
           <p>
-            Back in 2020, I enjoyed sharing new things I learned through
-            informal presentations. While they were casual and done for fun,
-            my team found them valuable and chose to record them. Below is a
-            list of recordings from team meetings where I presented various
-            topics inspired by the Human-Centered Design course I took on
-            Coursera.
+            In 2020, I enjoyed sharing new things I learned through informal
+            presentations. While they were casual and done for fun, my team
+            found them valuable and chose to record them. Below is a list of
+            recordings from team meetings where I presented various topics
+            inspired by the Human-Centered Design course I took on Coursera.
           </p>
           <ul className="design-video-list">
             <li>
@@ -217,93 +340,23 @@ function Projects() {
           </ul>
         </div>
         <div className="projects-design-content">
-            <h2 className="home-subtitle">
-          <strong>WORKSHOPS & HACKATHONS</strong>
-        </h2>
+          <h4 id="short-articles" style={{ scrollMarginTop: "130px" }}>
+            Short Articles
+          </h4>
           <div className="design-hackathons">
             <ul>
               <li>
-                <a href="https://github.com/malena/retreat-hackathon">
-                  Covid Killer Hackathon - Code
+                <a href="https://www.silverorange.com/blog/2020-remote-remote-week">
+                  Remote Week 2020
                 </a>
                 <p>
-                  In 2020, during the height of the pandemic, I organized a
-                  team retreat hackathon for our development and design teams.
-                  The challenge was to create a game where floating COVID
-                  cells could be "sprayed" and eliminated using the mouse—an
-                  engaging way to combine creativity and stress relief.
+                  Silveroange traditionally hosted an annual in-person retreat
+                  to foster team connection. However, in 2020, travel
+                  restrictions during the pandemic made that impossible. I took
+                  the lead in organizing a remote week filled with engaging
+                  activities designed to bring the team together and maintain
+                  our sense of connection.
                 </p>
-              </li>
-              <li>
-                <a href="https://docs.google.com/presentation/d/1ASj5oXj6gK1QMGUuh4AlkSePKqeQ2l37Y_d4Can21Cg/edit?slide=id.p#slide=id.p">
-                  Timezone Hackathon - Presentation
-                </a>{" "}
-                / &nbsp;
-                <a href="https://github.com/silverorange/retreat-hackathon-2022">
-                  Timezone Hackathon - Code
-                </a>
-                <p>
-                  In this hackathon, participants were instructed to build a
-                  simple web page that displayed all employee time zones,
-                  making it easier to coordinate meetings across distributed
-                  teams.
-                </p>
-              </li>
-              <li>
-                <a href="https://docs.google.com/presentation/d/1z03_75qUzuR-ZwpMlvDWqyqH50sFd27VZU7cISolswU/edit?usp=sharing">
-                  Make your own Typography - Presentation
-                </a>
-                <p>
-                  After a short presentation on typography principles, I
-                  divided the team into groups and challenged them to create
-                  their own fonts using objects found around their
-                  homes—blending design fundamentals with hands-on creativity.
-                </p>
-              </li>
-              <li>
-                <a href="https://docs.google.com/presentation/d/1TeK-QxsfUCn6npPqA9WIyVf_gwfUvFxNMcU_3A5S0sg/edit?usp=sharing">
-                  What is Creativity? - Presentation
-                </a>
-                <p>
-                  This design exercise explored how creativity works in
-                  design, using methods like conceptual blending to spark new
-                  ideas. The activity included drawing an alien to encourage
-                  imaginative thinking.
-                </p>
-              </li>
-              <li>
-                <a href="https://docs.google.com/presentation/d/11VcGiR5PVdPBuFjbShjzwLdVXiWIGKQKBDU3cZr1IXk/edit?usp=sharing">
-                  Storyboarding - Presentation
-                </a>
-                <p>
-                  A collaborative design challenge where teams worked to solve
-                  the problem: How can blind individuals know when they've
-                  been in the sun too long? The goal was to invent a method
-                  that helps reduce the risk of sunburn and skin cancer
-                  through thoughtful, inclusive design.
-                </p>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="projects-design-content">
-          <h2 className="home-subtitle">
-          <strong>SHORT ARTICLES</strong>
-        </h2>
-        <div className="design-hackathons">
-          <ul>
-            <li>
-              <a href="https://www.silverorange.com/blog/2020-remote-remote-week">
-                Remote Week 2020
-              </a>
-              <p>
-                Silveroange traditionally hosted an annual in-person retreat
-                to foster team connection. However, in 2020, travel
-                restrictions during the pandemic made that impossible. I
-                took the lead in organizing a remote week filled with
-                engaging activities designed to bring the team together and
-                maintain our sense of connection.
-              </p>
               </li>
               <li>
                 <a href="https://www.silverorange.com/blog/roughing-things-in">
