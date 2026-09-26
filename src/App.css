@@ -276,6 +276,17 @@ button {
   background-color: transparent;
 }
 
+.button-sm {
+  cursor: pointer;
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: var(--color-background);
+  border-radius: var(--border-radius);
+  padding: 0.5rem 1rem;
+  font-size: var(--font-size-xxs);
+  box-sizing: border-box;
+}
+
 a.button {
   display: inline-block;
   background-color: var(--color-primary);

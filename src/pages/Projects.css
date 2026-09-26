@@ -10,7 +10,6 @@
   margin: 3rem auto;
 }
 
-
 .project-container {
   padding: 1rem 0 3rem 0;
   display: flex;
@@ -28,4 +27,27 @@
 
 .projects-design-content {
   margin-bottom: 4rem;
+}
+
+.projects-menu {
+  text-align: center;
+  margin-bottom: 4rem;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.design-video-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.design-video-link {
+  display: flex;
+}
+
+.design-video-link img {
+  margin-right: 0.5rem;
 }
