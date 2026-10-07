@@ -1,6 +1,5 @@
 import "./Contact.css";
 import resume from "./../MalenaAndradeResume.pdf";
-import contact from "./../images/home-contact.png";
 
 function Contact() {
   return (
@@ -14,12 +13,11 @@ function Contact() {
               and build something awesome!
             </h2>
             <p>
-              I am currently studying part-time, but eager to find a challenging project
-              to work on. Email me with your ideas or connect with me via
-              LinkedIn to see if we can work something out!
+              I am currently studying part-time, but eager to find a challenging
+              project to work on. Email me with your ideas or connect with me
+              via LinkedIn to see if we can work something out!
             </p>
           </div>
-          <img className="bringing-ideas" src={contact} alt="logo" />
         </div>
         <div className="about-buttons">
           <a

@@ -2,10 +2,6 @@ import { TypeAnimation } from "react-type-animation";
 import "./Home.css";
 import "./Testimonials.css";
 import ProjectSlider from "../components/ProjectSlider";
-import ideas from "./../images/home-ideas.png";
-import interview from "./../images/home-interview.png";
-import bridge from "./../images/home-bridge.png";
-import hero from "./../images/home-hero.png";
 
 function Home() {
   return (
@@ -32,68 +28,14 @@ function Home() {
               style={{ display: "inline-block" }}
             />
             <p className="home-description">
-              I am currently updating my portfolio and taking a Masters Program
-              at LABASAD in Creative Direction with a specialization in AI.
+              I am currently taking a Masters Program at LABASAD in Creative
+              Direction with an AI specialization. This portfolio website is
+              currently under development.
             </p>
           </div>
         </div>
       </section>
-      <section className="container home-container">
-        <div className="home-content-container">
-          <h4>What I Do</h4>
-          <h2 className="home-subtitle">
-            <strong>BRINGING IDEAS TO LIFE</strong>
-            through thoughtful design.
-          </h2>
-          <p>
-            I collaborate with clients through deep exploration, collaboration
-            and relfection to align business goals with design strategies.
-          </p>
-        </div>
-        <div className="home-image-container">
-          <img
-            style={{ width: "100%" }}
-            className="bringing-ideas"
-            src={interview}
-            alt="logo"
-          />
-        </div>
-      </section>
-      <section className="container home-container">
-        <div className="home-content-container">
-          <h4>How I Work</h4>
-          <h2 className="home-subtitle">
-            <strong>A STRUCTURED</strong>
-            user-centered design approach.
-          </h2>
-          <p>
-            I use a structured and iterative approach to transform strategies
-            into wireframes, prototypes and design systems to craft user
-            experiences that balance aesthetics and functionality.
-          </p>
-        </div>
-        <div className="home-image-container">
-          <img className="bringing-ideas" src={ideas} alt="logo" />
-        </div>
-      </section>
-      <section className="container home-container">
-        <div className="home-content-container">
-          <h4>My Strength</h4>
-          <h2 className="home-subtitle">
-            <strong>BRIDGING BOTH WORLDS</strong>
-            of development and design.
-          </h2>
-          <p>
-            With over a decade being imersed in the world of software
-            development, I can understand the technical constraints behind
-            design possibilities and bring empathy and understanding of both
-            perspectives.
-          </p>
-        </div>
-        <div className="home-image-container">
-          <img className="bringing-ideas" src={bridge} alt="logo" />
-        </div>
-      </section>
+
       <section className="testimonials">
         <h2 className="home-subtitle testimonials-subtitle">
           What others say about working with me.
