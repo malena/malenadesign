@@ -1,3 +1,4 @@
+import { TypeAnimation } from "react-type-animation";
 import "./Home.css";
 import "./Testimonials.css";
 import ProjectSlider from "../components/ProjectSlider";
@@ -11,75 +12,92 @@ function Home() {
     <div class="home">
       <section className="home-main-section">
         <div className="home-content">
-          <div className="home-content-container">
+          <div>
             <h3 className="title-label">HI. I'M A</h3>
-            <h1 className="home-title">UX Designer.</h1>
+            <TypeAnimation
+              sequence={[
+                "UX Designer",
+                2000,
+                "Web Designer",
+                2000,
+                "Front End Developer",
+                2000,
+                "Product Designer",
+                2000,
+              ]}
+              wrapper="h3"
+              cursor={true}
+              repeat={Infinity}
+              className="home-title"
+              style={{ display: "inline-block" }}
+            />
             <p className="home-description">
               I am currently updating my portfolio and taking a Masters Program
               at LABASAD in Creative Direction with a specialization in AI.
             </p>
           </div>
-          <img className="bringing-ideas" src={hero} alt="logo" />
         </div>
       </section>
       <section className="container home-container">
-        <h4>What I Do</h4>
-        <h2 className="home-subtitle">
-          <strong>BRINGING IDEAS TO LIFE</strong>
-          through thoughtful design.
-        </h2>
-        <div className="content-image-container">
+        <div className="home-content-container">
+          <h4>What I Do</h4>
+          <h2 className="home-subtitle">
+            <strong>BRINGING IDEAS TO LIFE</strong>
+            through thoughtful design.
+          </h2>
           <p>
-            I collaborate with clients through deep exploration to align design
-            with business goals. By researching users and identifying pain
-            points, I translate ideas into wireframes that solve core challenges
-            and support strategic objectives. My consulting helps startups
-            integrate design with business strategy for lasting impact.
+            I collaborate with clients through deep exploration, collaboration
+            and relfection to align business goals with design strategies.
           </p>
-          <img className="bringing-ideas" src={interview} alt="logo" />
+        </div>
+        <div className="home-image-container">
+          <img
+            style={{ width: "100%" }}
+            className="bringing-ideas"
+            src={interview}
+            alt="logo"
+          />
         </div>
       </section>
       <section className="container home-container">
-        <h4>How I Work</h4>
-        <h2 className="home-subtitle">
-          <strong>A STRUCTURED</strong>
-          user-centered design approach.
-        </h2>
-        <div className="content-image-container">
+        <div className="home-content-container">
+          <h4>How I Work</h4>
+          <h2 className="home-subtitle">
+            <strong>A STRUCTURED</strong>
+            user-centered design approach.
+          </h2>
           <p>
-            I transform ideas into intuitive interfaces and scalable systems,
-            integrating reusable UI patterns for efficiency. Through close
-            collaboration with developers, I ensure seamless integration and
-            continuously refine solutions to enhance usability. From research
-            and wireframes to prototypes and design systems, I craft user
+            I use a structured and iterative approach to transform strategies
+            into wireframes, prototypes and design systems to craft user
             experiences that balance aesthetics and functionality.
           </p>
+        </div>
+        <div className="home-image-container">
           <img className="bringing-ideas" src={ideas} alt="logo" />
         </div>
       </section>
       <section className="container home-container">
-        <h4>My Strength</h4>
-        <h2 className="home-subtitle">
-          <strong>BRIDGING BOTH WORLDS</strong>
-          of development and design.
-        </h2>
-        <div className="content-image-container">
+        <div className="home-content-container">
+          <h4>My Strength</h4>
+          <h2 className="home-subtitle">
+            <strong>BRIDGING BOTH WORLDS</strong>
+            of development and design.
+          </h2>
           <p>
-            With over a decade in web development, I’ve led projects from
-            inception to completion—across startups, agencies, and large teams.
-            I’ve led development teams, facilitated design sprints, and managed
-            timelines and budgets. Serving as a board member has given me a
-            strategic, big-picture perspective that informs how I deliver
-            cohesive, impactful solutions. I thrive on helping businesses
-            succeed.
+            With over a decade being imersed in the world of software
+            development, I can understand the technical constraints behind
+            design possibilities and bring empathy and understanding of both
+            perspectives.
           </p>
+        </div>
+        <div className="home-image-container">
           <img className="bringing-ideas" src={bridge} alt="logo" />
         </div>
       </section>
       <section className="testimonials">
-        <h4 className="testimonials-subtitle">
-          What Colleagues and Clients are saying!
-        </h4>
+        <h2 className="home-subtitle testimonials-subtitle">
+          What others say about working with me.
+        </h2>
         <div className="testimonials-section">
           <div className="testimonial testimonial-1">
             <p className="testimonial-quote">

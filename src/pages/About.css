@@ -98,3 +98,7 @@
 .about-buttons h3 {
   color: var(--color-primary);
 }
+
+.education-list p {
+  line-height: 1.3;
+}
