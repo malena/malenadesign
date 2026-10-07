@@ -17,13 +17,17 @@
   }
 }
 
+.home-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .home-title {
   font-weight: var(--font-weight-strong);
   font-size: var(--font-size-xxlg);
   line-height: 3.6rem;
   color: var(--color-background);
   margin: 0;
-  width: 20rem;
 
   @media (min-width: 576px) {
     font-size: var(--font-size-xxxlg);
@@ -97,14 +101,32 @@
 
 .bringing-ideas {
   max-width: 20rem;
-  height: min-content;
-  width: 100%;
+  height: 100%;
+  max-height: auto;
 
   @media (min-width: 576px) {
     max-width: 29rem;
   }
   @media (min-width: 768px) {
     max-width: 20rem;
+  }
+}
+
+.home-content-container {
+  width: 34rem;
+  display: flex;
+  flex-direction: column;
+  margin-right: 3rem;
+}
+
+.home-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+
+  @media (min-width: 768px) {
+    margin-top: 0;
   }
 }
 

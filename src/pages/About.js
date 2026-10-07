@@ -44,7 +44,7 @@ function About() {
         </div>
         <div className="about-courses">
           <h4>Certifications, Conferences and Workshops</h4>
-          <ul className="design-video-list">
+          <ul className="education-list">
             <li>
               <p>
                 <strong>

@@ -16,10 +16,7 @@ function Projects() {
       <section className="container">
         <div className="about-profile-title">
           <h4 className="title-label">My Projects</h4>
-          <h2 className="home-subtitle">
-            <strong>SHOWCASING</strong>
-            the work I have done in over a decade!
-          </h2>
+          <h2 className="home-subtitle">Work I have done in over a decade!</h2>
           <p>
             From conceptualizing ideas to bringing them to life, I've had the
             privilege of working on a diverse range of projects that have shaped
@@ -197,7 +194,7 @@ function Projects() {
         </div>
         <div className="projects-design-content">
           <h4 id="presentations" style={{ scrollMarginTop: "130px" }}>
-            Design Presentations
+            Presentations & Show and Tells
           </h4>
           <p>
             In 2020, I enjoyed sharing new things I learned through informal
@@ -335,6 +332,19 @@ function Projects() {
                   alt="checkbox"
                 />
                 Human Centered Design: How to get ideas
+              </a>
+            </li>
+            <li>
+              <a
+                className="design-video-link"
+                href="https://www.dropbox.com/scl/fi/gk5r2kcvx2p0qwrnrdgsv/CSS-Variables-2020-01-17.mp4?rlkey=0r267vmf6jwuq7ujc4hudguzl&st=3fd6fdbd&dl=0"
+              >
+                <img
+                  className="design-video-link-social-icon"
+                  src={video}
+                  alt="checkbox"
+                />
+                An intro to CSS Variables
               </a>
             </li>
           </ul>

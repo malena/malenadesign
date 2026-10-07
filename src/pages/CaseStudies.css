@@ -108,6 +108,11 @@
   }
 }
 
+.cases-flex img:hover {
+  /* //  transform: scale(5);
+//  transition: transform 0.3s ease-in-out; */
+}
+
 .cases-flex.cases-target-audience {
   align-items: flex-start;
 }
