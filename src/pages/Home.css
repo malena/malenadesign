@@ -113,7 +113,6 @@
 }
 
 .home-content-container {
-  width: 34rem;
   display: flex;
   flex-direction: column;
   margin-right: 3rem;
@@ -121,6 +120,7 @@
 
 .home-image-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 2rem;

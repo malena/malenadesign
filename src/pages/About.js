@@ -23,7 +23,7 @@ function About() {
               </h2>
               <p>
                 Currently I am taking a Masters Program at LABASAD in{" "}
-                <strong>Creative Direction</strong> with a specialization in AI.
+                <strong>Creative Direction</strong> with an AI specialization.
               </p>
             </div>
           </div>
@@ -41,6 +41,19 @@ function About() {
               successful brands.
             </p>
           </div>
+        </div>
+        <div className="about-buttons">
+          <a className="button button-external" href={resume}>
+            <h3>Resume</h3>
+            <p>View Malena's Resume</p>
+          </a>
+          <a
+            className="button button-external"
+            href="https://www.linkedin.com/in/malenaandrade/"
+          >
+            <h3>LinkedIn </h3>
+            <p>Connect with me</p>
+          </a>
         </div>
         <div className="about-courses">
           <h4>Certifications, Conferences and Workshops</h4>
@@ -105,19 +118,6 @@ function About() {
               </p>
             </li>
           </ul>
-        </div>
-        <div className="about-buttons">
-          <a className="button button-external" href={resume}>
-            <h3>Resume</h3>
-            <p>View Malena's Resume</p>
-          </a>
-          <a
-            className="button button-external"
-            href="https://www.linkedin.com/in/malenaandrade/"
-          >
-            <h3>LinkedIn </h3>
-            <p>Connect with me</p>
-          </a>
         </div>
       </section>
       <section className="about-main-section about-extra">
