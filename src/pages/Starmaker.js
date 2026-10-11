@@ -17,7 +17,7 @@ const quoteBoxProblem = [
     id: 1,
     className: "challenges-quote",
     description:
-      "I included this case study because of the complex obstacles encountered and the valuable insights gained through my time on this project. I led design efforts but the project was ultimately completed by a seperate team. - Malena Andrade",
+      "I included this case study because of the complex obstacles encountered and the valuable insights gained through my time on this project. I led design efforts, but the project was ultimately completed by a seperate team since I transitioned out of the project to prioritize maternity and family responsibilities. - Malena Andrade",
   },
 ];
 
@@ -26,7 +26,7 @@ const quoteBoxDesign = [
     id: 2,
     className: "challenges-quote",
     description:
-      "Unfortunately, that flow was built around outdated UI technologies, and transitioning to modern approaches required a fundamental shift in how the experience was structured.  I failed to assert that a visual refresh alone wouldn’t solve the underlying issues. What was truly needed was a complete reimagining of the user experience.",
+      "Since the original flow was built around outdated UI technologies, during these workshops we started realizing that transitioning to modern approaches which require a fundamental shift in how the experience was structured.  A visual refresh alone wouldn’t solve the underlying issues. What was truly needed was a complete reimagining of the user experience.",
   },
 ];
 
@@ -57,9 +57,7 @@ function Starmaker() {
     <div className="cases">
       <header className="container projects-container-header">
         <h4 className="title-label">
-          <Link to="/projects">
-            Projects
-          </Link>
+          <Link to="/projects">Projects</Link>
         </h4>
       </header>
       <section className="container cases-header">
@@ -80,18 +78,15 @@ function Starmaker() {
           <div className="cases-content">
             <h3 className="cases-subtitle">Overview of the project</h3>
             <p>
-              I was brought in to lead a <strong>visual refresh</strong> for the{" "}
-              <strong>Canadian Starmaker Fund</strong>, a platform supporting
-              Canadian musicians through funding applications. The project had a{" "}
-              <strong>tight timeline</strong>, <strong>limited research</strong>
-              , and a <strong>fixed budget</strong>—all set before design began.
-              Early coordination was challenging due to the{" "}
-              <strong>absence of a project manager</strong> and a mismatch in
-              expectations; while I was hired as a <strong>UI designer</strong>,
-              the role required <strong>UX strategy and problem-solving</strong>
-              . The client initially expected a simple update, but the scope
-              evolved into a <strong>full-scale redesign</strong> and{" "}
-              <strong>code base rebuild</strong>.{" "}
+              I was brought in to lead a visual refresh for the Canadian
+              Starmaker Fund, a platform supporting Canadian musicians through
+              funding applications. The project had a tight timeline, limited
+              research, and a fixed budget, all set before design began. Early
+              coordination was challenging due to the absence of a project
+              manager and a mismatch in expectations. While I was hired as a UI
+              designer, the role required UX strategy. The client initially
+              expected a simple update, but the scope evolved into a full-scale
+              redesign and code base rebuild.
             </p>
           </div>
           <ProjectSummaryBox items={projectBox} />
@@ -102,20 +97,20 @@ function Starmaker() {
             <h3 className="cases-subtitle">Problem</h3>
             <ul className="bullet-list">
               <li>
-                <strong>Lengthy and cumbersome application process</strong> with
-                unclear requirements until submission
+                Lengthy and cumbersome application process with unclear
+                requirements until submission
               </li>
               <li>
-                Multiple steps and <strong>unreliable input fields</strong> that
-                failed to save user data
+                Multiple steps and unreliable input fields that failed to save
+                user data
               </li>
               <li>
-                <strong>Frequent loss of information</strong> during submission
-                due to outdated back-end architecture
+                Frequent loss of information during submission due to outdated
+                back-end architecture
               </li>
               <li>
-                Website was <strong>desktop-only</strong>, excluding users who
-                relied on <strong>mobile access</strong>
+                Website was desktop-only, excluding users who relied on mobile
+                access
               </li>
             </ul>
           </div>
@@ -123,41 +118,40 @@ function Starmaker() {
             <h3 className="cases-subtitle">Solution</h3>
             <ul className="bullet-list">
               <li>
-                <strong>Refactored back-end code</strong> by separating
-                presentation logic from processing
+                Refactored back-end code by separating presentation logic from
+                processing
               </li>
               <li>
-                Integrated <strong>React.js</strong> for a more intuitive and
-                modern user interface
+                Integrated React.js for a more intuitive and modern user
+                interface
               </li>
               <li>
-                Implemented <strong>mobile-first responsive design</strong> to
-                improve accessibility
+                Implemented mobile-first responsive design to improve
+                accessibility
               </li>
               <li>
                 Enhanced application flow with:
                 <ul>
                   <li>
-                    <strong>Step-by-step progress indicators</strong> to reduce
-                    cognitive load
+                    Step-by-step progress indicators to reduce cognitive load
                   </li>
                   <li>
-                    <strong>Smart validation</strong> and{" "}
-                    <strong>auto-save</strong> to prevent errors and data loss
+                    Smart validation and auto-save to prevent errors and data
+                    loss
                   </li>
                 </ul>
               </li>
               <li>
-                Established a <strong>clear visual hierarchy</strong> with
-                tooltips and inline guidance for first-time users
+                Established a clear visual hierarchy with tooltips and inline
+                guidance for first-time users
               </li>
               <li>
-                Applied <strong>user-centered information architecture</strong>{" "}
-                for quick access to eligibility, deadlines, and FAQs
+                Applied user-centered information architecture for quick access
+                to eligibility, deadlines, and FAQs
               </li>
               <li>
-                Conducted <strong>iterative testing and user feedback</strong>{" "}
-                via surveys and prototype reviews to refine the experience
+                Conducted iterative testing and user feedback via surveys and
+                prototype reviews to refine the experience
               </li>
             </ul>
           </div>
@@ -213,12 +207,10 @@ function Starmaker() {
           <h4 className="title-label">Step 2</h4>
           <h2 className="home-subtitle">Design</h2>
           <p>
-            Led a <strong>three-day in-person workshop</strong> with a back-end
-            developer and the client to clarify{" "}
-            <strong>feature expectations</strong> and walk through the{" "}
-            <strong>current user flow</strong>. I prepared{" "}
-            <strong>adaptable wireframes</strong> to streamline updates and
-            ensure <strong>seamless collaboration</strong> across teams.
+            Led a three-day in-person workshop with a back-end developer and the
+            client to clarify feature expectations and walk through the current
+            user flow. I prepared adaptable wireframes to streamline updates and
+            ensure seamless collaboration across teams.
           </p>
           <QuoteBox items={quoteBoxDesign} />
           <strong></strong>
@@ -245,12 +237,10 @@ function Starmaker() {
         <img className="" src={uiLibrary} alt="Starmaker UI Library" />
         <h4>Prototype</h4>
         <p>
-          Due to the fast-paced nature of the project, I began building a
+          Due to the timeline pressure of the project, I began building a
           prototype using the UI library while still refining the wireframes.
           Reviewing the prototype helped both our team and the client recognize
-          the full complexity and scope of the work ahead. My role was to bring
-          the design into a manageable state, paving the way for a visual
-          designer to finalize the overall look and feel.
+          the full complexity and scope of the work ahead.
         </p>
         <img className="" src={prototype} alt="Starmaker Prototype" />
       </section>
@@ -258,24 +248,36 @@ function Starmaker() {
         <div className="case-steps-container">
           <h4 className="title-label">Step 3</h4>
           <h2 className="home-subtitle">Reflection</h2>
+
+          <h4>Lessons Learned</h4>
           <p>
-            My involvement in the project concluded after testing the prototype
-            began, as the work was still in progress. To ensure continuity, I
-            recorded several onboarding videos for the incoming designer. It was
-            one of the projects with the most noticeable scope expansion over
-            time.
+            Educating the client on the full scope of the project was essential,
+            as the transition to a new technology stack involved much more than
+            a simple design revamp. The change enabled a more modern user
+            experience but also altered the existing design flows, requiring us
+            to rethink and reimagine the user experience from the ground up,
+            instead of trying to fit new features into the old flow.
           </p>
           <p>
-            Looking back, being present during the initial client meetings could
-            have helped anticipate the project's complexity. Investing more time
-            in refining the user flow would have added significant value and
-            created more education to the client that this was a bigger project
-            than they though. That said, every project comes with its own
-            constraints—whether in budget, timeline, or scope—and it's all part
-            of the learning process.
+            This shift was crucial for creating a more intuitive and efficient
+            user journey, but it also meant that we had to manage client
+            expectations and communicate the need for a more comprehensive
+            redesign. Something we should have addressed earlier in the project
+            if we had been involved in the initial client meetings.
+          </p>
+          <p>
+            That said, every project comes with its own constraints, whether in
+            budget, timeline, or scope. The key is to recognize these
+            limitations early and adapt accordingly.
+          </p>
+          <p>
+            In this case, the project was ultimately completed by a different
+            team, but the experience provided valuable insights into managing
+            complex design challenges and client expectations.
           </p>
         </div>
       </section>
+      <section className="container cases-project-slider"></section>
       <section className="container cases-project-slider">
         <div className="next-project-slider">
           <h4>Next Project:</h4>
